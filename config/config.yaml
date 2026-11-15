@@ -1,0 +1,42 @@
+seed: 42
+
+paths:
+  sample_dir: data/sample
+  processed_dir: data/processed
+  tables_dir: outputs/tables
+  figures_dir: outputs/figures
+  reports_dir: outputs/reports
+  models_dir: outputs/models
+
+age:
+  min_valid: 13
+  max_valid: 100
+  bands:
+    edges: [13, 18, 26, 36, 46, 101]
+    labels: ["13-17", "18-25", "26-35", "36-45", "46+"]
+
+labels:
+  order: [none, mild, moderate, severe]
+  elevated: [moderate, severe, negative_affect, mh_forum]
+
+analysis:
+  min_group_n: 30
+  top_terms: 10
+  min_term_count: 5
+
+text:
+  min_chars: 3
+
+models:
+  n_splits: 5
+  seeds: [42, 7, 2024]
+  min_group_n: 100
+  bootstrap: 200
+
+codemixed:
+  # Set save_examples to false for real data: examples are raw text.
+  save_examples: true
+  n_examples: 15
+
+genai:
+  online_model: gpt-4o-mini

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+<meta charset="utf-8">
+<title>वापरकर्ता मार्गदर्शक (मराठी)</title>
+<style>
+  @page { size: A4; margin: 16mm 14mm; }
+  body { font-family: "Nirmala UI", "Mangal", "Segoe UI", sans-serif; font-size: 12.5pt; line-height: 1.55; color: #1b1b1b; }
+  h1 { font-size: 24pt; color: #0b3d91; margin: 0 0 6px 0; }
+  h2 { font-size: 17pt; color: #0b3d91; border-bottom: 2px solid #0b3d91; padding-bottom: 3px; margin-top: 26px; page-break-after: avoid; }
+  h3 { font-size: 14pt; color: #1f5fbf; margin-bottom: 4px; page-break-after: avoid; }
+  .sub { font-size: 13pt; color: #444; margin-bottom: 14px; }
+  .box { border-left: 5px solid #f0ad00; background: #fff8e1; padding: 8px 12px; margin: 10px 0; page-break-inside: avoid; }
+  .ok { border-left-color: #2e8b57; background: #eaf7f0; }
+  .bad { border-left-color: #c0392b; background: #fdecea; }
+  .step { display: inline-block; background: #0b3d91; color: #fff; border-radius: 6px; padding: 5px 10px; margin: 3px 0; font-size: 11.5pt; }
+  .arrow { color: #0b3d91; font-weight: bold; margin: 0 4px; }
+  .flow { text-align: center; margin: 12px 0; page-break-inside: avoid; }
+  .flowline { margin: 4px 0; }
+  table { border-collapse: collapse; width: 100%; margin: 8px 0; font-size: 11pt; page-break-inside: avoid; }
+  th, td { border: 1px solid #999; padding: 5px 7px; vertical-align: top; }
+  th { background: #e8eefc; text-align: left; }
+  code, pre { font-family: Consolas, "Courier New", monospace; background: #f3f3f3; font-size: 10.5pt; }
+  pre { padding: 8px 10px; border: 1px solid #ccc; white-space: pre-wrap; page-break-inside: avoid; }
+  img { width: 100%; border: 1px solid #bbb; margin: 6px 0; }
+  figure { margin: 10px 0; page-break-inside: avoid; }
+  figcaption { font-size: 10.5pt; color: #555; }
+  .pb { page-break-before: always; }
+  ul, ol { margin-top: 4px; }
+  li { margin-bottom: 3px; }
+</style>
+</head>
+<body>
+
+<h1>वय आणि भाषा आधारित मानसिक आरोग्य मजकूर विश्लेषण</h1>
+<div class="sub">वापरकर्ता मार्गदर्शक (मराठी) &mdash; नवशिक्यांसाठी: अॅप कसा चालतो, स्क्रीन कशा वाचायच्या, आणि परीक्षेत / सुपरवायझरसमोर नवीन डेटा कसा दाखवायचा</div>
+
+<div class="box bad"><b>महत्त्वाचे:</b> हे एक <b>संशोधन व शिक्षणासाठीचे</b> साधन आहे. हे कोणाचेही निदान (diagnosis) करत नाही, कोणत्याही व्यक्तीबद्दल निर्णय घेण्यासाठी वापरू नये.</div>
+
+<h2>१. हा अॅप नेमके काय करतो? (अगदी सोप्या शब्दांत)</h2>
+<p>समजा तुमच्याकडे अनेक लोकांनी लिहिलेले छोटे मजकूर आहेत (पोस्ट किंवा सर्वेक्षणातील उत्तरे). प्रत्येक मजकुराला एक <b>लेबल</b> आहे (उदा. none, mild, moderate, severe) आणि शक्य असेल तर लिहिणाऱ्याचे <b>वय</b> आणि <b>भाषा</b>.</p>
+<p>हा अॅप दोन प्रश्नांची उत्तरे देतो:</p>
+<ol>
+  <li>वेगवेगळ्या <b>वयोगटांत</b> आणि <b>भाषांमध्ये</b> लेबल्स आणि वापरलेले शब्द वेगळे दिसतात का?</li>
+  <li>कॉम्प्युटर मॉडेल सर्व गटांसाठी <b>सारखे चांगले</b> काम करते का, की काही गटांसाठी वाईट (म्हणजे अन्याय्य)?</li>
+</ol>
+<p>शिवाय, अॅप निकालांचा लहान <b>AI-सारांश</b> आणि इंग्रजी/हिंदी/मराठीत सामान्य <b>जागरूकता मजकूर</b> तयार करतो (हा मजकूर माणसाने तपासल्याशिवाय वापरायचा नाही).</p>
+
+<h2>२. अॅपचा संपूर्ण प्रवाह (Flow)</h2>
+<div class="flow">
+  <div class="flowline"><span class="step">१. डेटा फाईल<br>CSV / Excel / JSON</span><span class="arrow">&rarr;</span><span class="step">२. तपासणी<br>(Validate)</span><span class="arrow">&rarr;</span><span class="step">३. स्वच्छता (Clean)</span></div>
+  <div class="flowline"><span class="arrow">&darr;</span></div>
+  <div class="flowline"><span class="step">४. विश्लेषण<br>वय, भाषा, वय×भाषा</span><span class="arrow">&rarr;</span><span class="step">५. मॉडेल्स<br>३ मॉडेल्सची तुलना</span><span class="arrow">&rarr;</span><span class="step">६. स्पष्टीकरण<br>कोणते शब्द महत्त्वाचे</span></div>
+  <div class="flowline"><span class="arrow">&darr;</span></div>
+  <div class="flowline"><span class="step">७. जनरेटिव्ह AI<br>सारांश + जागरूकता मजकूर</span><span class="arrow">&rarr;</span><span class="step">८. डॅशबोर्ड (हा UI)</span></div>
+</div>
+<table>
+<tr><th>टप्पा</th><th>काय होते</th></tr>
+<tr><td>तपासणी</td><td>फाईलमधील स्तंभ (columns), रिकाम्या जागा, डुप्लिकेट तपासले जातात. स्तंभांची नावे आपोआप ओळखली जातात (उदा. <code>post</code> = text, <code>diagnosis</code> = label).</td></tr>
+<tr><td>स्वच्छता</td><td>ईमेल, फोन नंबर, लिंक, @नावे काढून टाकली जातात. डुप्लिकेट काढले जातात. चुकीचे वय (उदा. 5 किंवा 150) &ldquo;अज्ञात&rdquo; मानले जाते &mdash; वय कधीही अंदाजाने भरले जात नाही.</td></tr>
+<tr><td>विश्लेषण</td><td>वयोगट व भाषेनुसार लेबल्सचे वाटप, सांख्यिकी चाचण्या, वेगळे शब्द. मिश्र भाषा (Hinglish / रोमन मराठी) साठी स्पेलिंग सुधारणा.</td></tr>
+<tr><td>मॉडेल्स</td><td>Logistic Regression, Linear SVM, Naive Bayes यांची तुलना. एका लेखकाच्या सर्व पोस्ट एकाच बाजूला ठेवून (प्रशिक्षण किंवा चाचणी) तपासणी होते, त्यामुळे &ldquo;चोरी&rdquo; (leakage) टळते.</td></tr>
+<tr><td>जनरेटिव्ह AI</td><td>फक्त एकत्रित आकडे वापरले जातात (कच्च्या पोस्ट कधीही नाही). तयार झालेल्या मजकुरातील प्रत्येक आकडा खरा आहे का ते आपोआप तपासले जाते.</td></tr>
+</table>
+
+<h3>निकाल कुठे साठवले जातात?</h3>
+<table>
+<tr><th>फोल्डर</th><th>त्यात काय</th></tr>
+<tr><td><code>data/processed/clean.csv</code></td><td>स्वच्छ केलेला डेटा</td></tr>
+<tr><td><code>outputs/tables/</code></td><td>सर्व तक्ते (CSV)</td></tr>
+<tr><td><code>outputs/figures/</code></td><td>सर्व आलेख (PNG)</td></tr>
+<tr><td><code>outputs/reports/</code></td><td>सारांश JSON, स्वच्छता अहवाल, AI मजकूर, जागरूकता मजकूर</td></tr>
+<tr><td><code>outputs/models/</code></td><td>सर्वोत्तम मॉडेल</td></tr>
+</table>
+
+<h2 class="pb">३. अॅप सुरू कसा करायचा (टप्प्याटप्प्याने)</h2>
+<ol>
+  <li>VS Code मध्ये प्रोजेक्ट फोल्डर उघडा. <b>Terminal &rarr; New Terminal</b>.</li>
+  <li>फोल्डरमध्ये जा आणि environment चालू करा:
+<pre>cd "C:\Users\itvai\OneDrive\Desktop\pp\Mini Project"
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
+.\.venv\Scripts\Activate.ps1</pre>
+  ओळीच्या सुरुवातीला <code>(.venv)</code> दिसले पाहिजे.</li>
+  <li>सर्व नीट आहे का ते तपासा: <code>python main.py check</code> &rarr; &ldquo;Project environment is ready.&rdquo; दिसायला हवे.</li>
+  <li>चाचणी डेटा तयार करा (एकदाच): <code>python main.py generate-data</code></li>
+  <li>पूर्ण प्रक्रिया चालवा (१&ndash;२ मिनिटे): <code>python main.py full --input data/sample/sample_clean.csv</code>
+  <br>मॉडेल प्रशिक्षणावेळी स्क्रीन शांत दिसते &mdash; ते सामान्य आहे, थांबा.</li>
+  <li>डॅशबोर्ड उघडा: <code>python -m streamlit run app.py</code> &rarr; ब्राउझरमध्ये <code>http://localhost:8501</code>. बंद करण्यासाठी Terminal मध्ये <b>Ctrl+C</b>.</li>
+</ol>
+<div class="box">सुरुवातीला दिसणारा पिवळा पट्टा &ldquo;SYNTHETIC test data&rdquo; म्हणजे हा डेटा कृत्रिम (बनावट) आहे, खऱ्या लोकांबद्दल काहीही सिद्ध करत नाही. फक्त सॉफ्टवेअर नीट चालते हे दाखवण्यासाठी आहे.</div>
+
+<h2 class="pb">४. UI स्क्रीन-बाय-स्क्रीन समजून घ्या</h2>
+
+<h3>४.१ डावी बाजू (Sidebar) &mdash; नेहमी दिसणारी</h3>
+<ul>
+  <li><b>Navigation (Page):</b> ८ पानांची यादी. नाव दाबले की ते पान उघडते.</li>
+  <li><b>Upload your own file:</b> स्वतःची डेटा फाईल (csv, tsv, json, jsonl, xlsx) येथे टाका. ती <code>data/raw</code> मध्ये साठवली जाते.</li>
+  <li><b>Input file:</b> कोणत्या फाईलवर प्रक्रिया करायची ते निवडा.</li>
+  <li><b>Run pipeline:</b> बटण दाबले की निवडलेल्या फाईलवर पूर्ण प्रक्रिया चालते (१&ndash;३ मिनिटे). पूर्ण झाल्यावर सर्व पाने नवीन निकाल दाखवतात. काही चूक झाली तर लाल संदेश + कारण दिसते.</li>
+  <li>बटण दाबेपर्यंत काहीही चालत नाही &mdash; फाईल निवडणे म्हणजे फक्त निवड.</li>
+</ul>
+
+<h3>४.२ Overview (आढावा)</h3>
+<figure><img src="cropped/01_overview.png"><figcaption>Overview पान</figcaption></figure>
+<ul>
+  <li><b>Posts after cleaning:</b> स्वच्छतेनंतर किती पोस्ट उरल्या.</li>
+  <li><b>Posts with reliable age:</b> किती पोस्टसाठी विश्वासार्ह वय आहे. ० असेल तर वयाची पाने &ldquo;उपलब्ध नाही&rdquo; म्हणतील.</li>
+  <li><b>Code-mixed / Romanized %:</b> इंग्रजी अक्षरांत लिहिलेल्या हिंदी/मराठी (Hinglish, रोमन मराठी) पोस्टची टक्केवारी.</li>
+  <li><b>Cleaning report:</b> <code>rows_input</code> = सुरुवातीच्या ओळी; <code>dropped_...</code> = कारणानुसार काढलेल्या ओळी; <code>rows_with_pii_removed</code> = वैयक्तिक माहिती (फोन, ईमेल) काढलेल्या पोस्ट; <code>age_out_of_range_set_missing</code> = चुकीची वये; <code>language_provided_vs_detected_agreement</code> = दिलेली भाषा आणि अॅपने ओळखलेली भाषा किती जुळली (०.९९५ = ९९.५%).</li>
+</ul>
+
+<h3 class="pb">४.३ Age analysis (वयानुसार विश्लेषण)</h3>
+<figure><img src="cropped/02_age.png"><figcaption>Age analysis पान</figcaption></figure>
+<ul>
+  <li><b>डावा आलेख (stacked bars):</b> प्रत्येक स्तंभ = एक वयोगट. रंगांप्रमाणे लेबल्सचा वाटा (जांभळा=none, निळा=mild, हिरवा=moderate, पिवळा=severe). पिवळा/हिरवा जास्त = गंभीर लेबल्स जास्त.</li>
+  <li><b>उजवा आलेख (heatmap):</b> तीच माहिती टक्केवारीत. गडद रंग = मोठा वाटा.</li>
+  <li><b>chi-square ओळ:</b> <code>p</code> जर <b>०.०५ पेक्षा कमी</b> असेल तर वयोगटांतील फरक योगायोग नसण्याची शक्यता जास्त. <code>Cramer's V</code> = फरक किती मोठा (०=नाही, ०.१=लहान, ०.३=मध्यम, ०.५=मोठा).</li>
+  <li><b>पहिला तक्ता:</b> टक्केवारी + ९५% विश्वासाची श्रेणी (<code>ci_low_pct</code>&ndash;<code>ci_high_pct</code>). श्रेणी रुंद = कमी डेटा, काळजीपूर्वक वाचा. <code>sufficient_n</code> पडताळणी (टिक) = गटात पुरेशा पोस्ट आहेत.</li>
+  <li><b>इतर तक्ते:</b> वयोगटानुसार सरासरी पोस्ट लांबी आणि &ldquo;first_person_rate&rdquo; (मी/माझे सारखे शब्द), तसेच प्रत्येक वयोगटात जास्त वापरलेले शब्द.</li>
+  <li>३० पेक्षा कमी पोस्ट असलेल्या गटांबद्दल पिवळा इशारा दिसतो.</li>
+</ul>
+
+<h3 class="pb">४.४ Language analysis (भाषेनुसार विश्लेषण)</h3>
+<figure><img src="cropped/03_language.png"><figcaption>Language analysis पान</figcaption></figure>
+<ul>
+  <li>वयाच्या पानासारखेच, पण भाषेनुसार: en (इंग्रजी), hi (हिंदी), mr (मराठी), hinglish (इंग्रजी अक्षरांत हिंदी), roman_mr (इंग्रजी अक्षरांत मराठी).</li>
+  <li>भाषा ओळख हा <b>नियमांवर आधारित अंदाज</b> आहे, पूर्ण खात्रीचे सत्य नव्हे.</li>
+  <li><b>Code-mixed normalization:</b> <i>Romanized rows</i> = रोमन अक्षरांतील पोस्ट; <i>Rows changed</i> = स्पेलिंग सुधारलेल्या पोस्ट (उदा. bohot &rarr; bahut); <i>Vocabulary</i> = शब्दसंख्या आधी &rarr; नंतर; <i>Macro-F1 before/after</i> = सुधारणेपूर्वी/नंतर मॉडेल गुण. दोन्ही सारखे असतील तर सुधारणेचा फायदा झाला नाही असा प्रामाणिक निष्कर्ष.</li>
+</ul>
+
+<h3 class="pb">४.५ Age x Language (वय × भाषा)</h3>
+<figure><img src="cropped/04_age_language.png"><figcaption>Age x Language पान</figcaption></figure>
+<ul>
+  <li><b>डावा आलेख:</b> प्रत्येक (वयोगट, भाषा) खण्यात किती पोस्ट आहेत.</li>
+  <li><b>उजवा आलेख:</b> त्या खण्यात गंभीर लेबल्सची टक्केवारी. ३० पेक्षा कमी पोस्ट असलेले खण &ldquo;n&lt;min&rdquo; म्हणून लपवले जातात, कारण खूप थोड्या पोस्टवरून निष्कर्ष काढणे चुकीचे.</li>
+  <li>खऱ्या डेटामध्ये बहुतेक खण रिकामे/कमी असतात &mdash; म्हणून आपल्या सर्वेक्षणातून (Track C) जास्त डेटा हवा.</li>
+</ul>
+
+<h3 class="pb">४.६ Model comparison (मॉडेल तुलना)</h3>
+<figure><img src="cropped/05_models.png"><figcaption>Model comparison पान</figcaption></figure>
+<ul>
+  <li><b>वरचा तक्ता:</b> ३ मॉडेल्स आणि त्यांचे गुण. <code>macro_f1_mean</code> = ० ते १; १ म्हणजे सर्व लेबल्स बरोबर. सर्व लेबल्सना समान महत्त्व देतो (म्हणून असंतुलित डेटासाठी योग्य). <code>_std</code> = पुन्हा चालवल्यावर किती बदल (लहान = स्थिर).</li>
+  <li><b>Confusion matrix (डावा आलेख):</b> आडवी रांग = खरे लेबल, उभा स्तंभ = मॉडेलचा अंदाज. तिरकी रेषा (कर्ण) = बरोबर अंदाज. जवळच्या पातळ्यांत (moderate/severe) गोंधळ सामान्य.</li>
+  <li><b>उजवा आलेख:</b> प्रत्येक वय×भाषा गटासाठी गुण (किमान १०० पोस्ट असलेले).</li>
+  <li><b>Group type निवड + तक्ता:</b> वयोगट / भाषा / दोन्ही निवडा आणि प्रत्येक गटाचे गुण पाहा. <code>macro_f1_ci_low/high</code> = गुणांची शक्य श्रेणी. &ldquo;Only groups with enough data&rdquo; टिक = कमी डेटाचे गट लपवते.</li>
+  <li><b>Fairness gaps:</b> सर्वोत्तम आणि सर्वात वाईट गटातील फरक. मोठा फरक = मॉडेल काही गटांसाठी कमी चांगले. <code>worst_group</code> = कोणता गट सर्वात मागे.</li>
+</ul>
+
+<h3 class="pb">४.७ Explainability (स्पष्टीकरण)</h3>
+<figure><img src="cropped/06_explain.png"><figcaption>Explainability पान</figcaption></figure>
+<ul>
+  <li>लेबल निवडा; मॉडेल त्या लेबलकडे कोणत्या शब्दांमुळे झुकते ते दिसते (<code>coefficient</code> जास्त = जास्त प्रभाव).</li>
+  <li>हे <b>मॉडेलचे वर्तन</b> दाखवते, माणसाच्या मनस्थितीचे <b>कारण नाही</b>. एकटा शब्द कशाचा पुरावा नाही.</li>
+</ul>
+
+<h3 class="pb">४.८ Generative AI (जनरेटिव्ह AI)</h3>
+<figure><img src="cropped/07_genai.png"><figcaption>Generative AI पान</figcaption></figure>
+<ul>
+  <li><b>Age-wise insights:</b> आकड्यांवरून तयार केलेला लहान सारांश. खाली ओळ: source (offline-template = अंगभूत साचा; online-llm = ऑनलाइन मॉडेल), <i>numbers verified</i> = सर्व आकडे खऱ्या आकड्यांशी जुळले, <i>safety check</i> = धोकादायक वाक्ये नाहीत.</li>
+  <li><b>Awareness content:</b> भाषा निवडा; वयोगटानुसार सामान्य, वैद्यकीय नसलेला मजकूर. लाल पट्टा: &ldquo;Not reviewed&rdquo; &mdash; मराठी/हिंदी जाणकाराने आणि तज्ज्ञाने तपासेपर्यंत प्रसिद्ध करू नये; हेल्पलाइन जागी खरा क्रमांक टाकावा.</li>
+</ul>
+
+<h3 class="pb">४.९ Limitations (मर्यादा)</h3>
+<figure><img src="cropped/08_limits.png"><figcaption>Limitations पान</figcaption></figure>
+<p>जबाबदार वापराचे नियम: निदान नाही; लेबल्स कदाचित &ldquo;प्रॉक्सी&rdquo;; वय कधीही अंदाजाने नाही; भाषा ओळख चुकू शकते; लहान गट अर्थ लावू नका; AI मजकूर माणसाने तपासावा.</p>
+
+<h2 class="pb">५. नवीन डेटा बदलून सुपरवायझर / परीक्षकाला दाखवायचे कसे?</h2>
+<h3>५.१ फाईल कशी असावी</h3>
+<table>
+<tr><th>माहिती</th><th>स्वीकारली जाणारी स्तंभ नावे</th><th>गरज</th></tr>
+<tr><td>मजकूर</td><td>text, post, content, body, message, mood_text, comment, tweet</td><td><b>हवा</b></td></tr>
+<tr><td>लेबल</td><td>label, category, diagnosis, class, target, risk (किंवा phq9_score)</td><td><b>हवा</b></td></tr>
+<tr><td>वय (संख्या)</td><td>age, years, age_years</td><td>ऐच्छिक</td></tr>
+<tr><td>वयोगट</td><td>age_band, age_group (13-17, 18-25, 26-35, 36-45, 46+)</td><td>ऐच्छिक</td></tr>
+<tr><td>भाषा</td><td>language, lang (English, Hindi, Marathi, Hinglish, Romanized Marathi)</td><td>ऐच्छिक (नसेल तर अॅप ओळखतो)</td></tr>
+<tr><td>लेखक ID</td><td>source_id, user_id, author_id, response_id, id</td><td>ऐच्छिक, पण उपयुक्त</td></tr>
+</table>
+<p>उदाहरण (CSV):</p>
+<pre>text,label,age,language
+"Mala khup udas vatate",moderate,24,roman_mr
+"आज मी खूप खुश आहे",none,31,mr</pre>
+<div class="box">Excel मधून CSV करताना <b>&ldquo;CSV UTF-8&rdquo;</b> निवडा, नाहीतर मराठी/हिंदी अक्षरे बिघडतात.</div>
+
+<h3>५.२ पद्धत अ: UI मधून (सर्वात सोपी)</h3>
+<ol>
+  <li>डॅशबोर्ड चालू करा (<code>python -m streamlit run app.py</code>).</li>
+  <li>डाव्या बाजूच्या <b>Upload</b> ने फाईल निवडा. &ldquo;Saved ...&rdquo; असे हिरवे संदेश येईल, आणि Input file मध्ये ती आपोआप निवडली जाईल.</li>
+  <li><b>Run pipeline</b> दाबा. १&ndash;३ मिनिटे थांबा (या वेळेत प्रवाह समजावून सांगा).</li>
+  <li>Overview पासून सर्व पाने दाखवा. वरचे पिवळे पट्टे वाचा (डेटा कृत्रिम आहे का / लेबल्स प्रॉक्सी आहेत का).</li>
+</ol>
+<h3>५.३ पद्धत ब: कमांडने</h3>
+<pre># १) आधी जलद तपासणी (काही सेकंद): स्तंभ ओळखले का?
+python main.py validate --input data/raw/त्यांची_फाईल.csv
+# २) पूर्ण प्रक्रिया
+python main.py full --input data/raw/त्यांची_फाईल.csv
+# ३) डॅशबोर्ड
+python -m streamlit run app.py</pre>
+
+<h3>५.४ वेगळ्या डेटावर काय होईल (आधीच जाणून घ्या)</h3>
+<table>
+<tr><th>परिस्थिती</th><th>अॅप काय करतो</th></tr>
+<tr><td>वय स्तंभ नाही</td><td>वयाची पाने &ldquo;unavailable&rdquo; म्हणतात; भाषा व मॉडेल पाने चालतात. (हेच दाखवणे उत्तम &mdash; आम्ही वय अंदाजाने भरत नाही.)</td></tr>
+<tr><td>चुकीचे वय (5, 150, &ldquo;twenty&rdquo;)</td><td>&ldquo;unknown&rdquo; मानले जाते आणि cleaning report मध्ये मोजले जाते.</td></tr>
+<tr><td>भाषा स्तंभ नाही</td><td>अॅप नियमांनी भाषा ओळखतो (अंदाज, पूर्ण खात्री नाही).</td></tr>
+<tr><td>लेबलची वेगळी नावे (उदा. depressed / not depressed)</td><td>चालते. पण &ldquo;elevated&rdquo; टक्केवारीसाठी <code>config/config.yaml</code> मध्ये <code>labels.elevated</code> यादीत ते लेबल जोडा (उदा. depressed).</td></tr>
+<tr><td>खूप कमी ओळी (&lt; ४०)</td><td>मॉडेल विभाग &ldquo;skipped&rdquo; दाखवतो (कमी डेटा).</td></tr>
+<tr><td>गटात ३० पेक्षा कमी पोस्ट</td><td>तो गट इशाऱ्यासह दाखवला/लपवला जातो; मॉडेल गुणांसाठी किमान १००.</td></tr>
+<tr><td>फोन/ईमेल असलेल्या पोस्ट</td><td>आपोआप काढल्या जातात आणि संख्या दाखवली जाते.</td></tr>
+<tr><td>फाईलमध्ये मजकूर/लेबल स्तंभ नाही</td><td>स्पष्ट (इंग्रजी) संदेशासह थांबतो; स्तंभांची नावे बदलून पुन्हा प्रयत्न करा.</td></tr>
+</table>
+
+<h3>५.५ तयार चाचणी फाईल्स (परीक्षेत वापरण्यासाठी)</h3>
+<table>
+<tr><th>फाईल</th><th>काय दाखवते</th><th>अंदाजे वेळ</th></tr>
+<tr><td><code>data/sample/sample_clean.csv</code></td><td>१२०० स्वच्छ ओळी; सर्व पाने भरलेली (मुख्य डेमो)</td><td>~१&ndash;२ मि.</td></tr>
+<tr><td><code>data/sample/sample_messy.csv</code></td><td>अस्वच्छ डेटा: फोन/ईमेल, डुप्लिकेट, चुकीची वये &mdash; स्वच्छता दाखवण्यासाठी</td><td>~१&ndash;२ मि.</td></tr>
+<tr><td><code>data/sample/sample_no_age.csv</code></td><td>वय नाही &mdash; &ldquo;unavailable&rdquo; वर्तन</td><td>~१&ndash;२ मि.</td></tr>
+<tr><td><code>data/sample/sample_survey_trackC.csv</code></td><td>सर्वेक्षण रचना (वयोगट + PHQ-9 गुण)</td><td>~१ मि.</td></tr>
+<tr><td><code>data/sample/sample_alt_columns.xlsx</code></td><td>Excel; वेगळी स्तंभ नावे (post, diagnosis, years, lang) &mdash; आपोआप ओळख</td><td>~१ मि.</td></tr>
+<tr><td><code>data/sample/sample.tsv / .json / .jsonl</code></td><td>वेगवेगळे फाईल प्रकार</td><td>~१ मि.</td></tr>
+<tr><td><code>data/sample/sample_codemixed_noisy.csv</code></td><td>रोमन हिंदी/मराठी स्पेलिंग सुधारणा</td><td>~१ मि.</td></tr>
+<tr><td><code>data/raw/brighter_hin_proxy.csv</code> (नसेल तर <code>python main.py fetch-open --lang hin</code>)</td><td>खरा खुला डेटा (हिंदी भावना); लेबल्स प्रॉक्सी; वय नाही</td><td>~२&ndash;४ मि.</td></tr>
+<tr><td><code>data/raw/reddit_mh_proxy.csv</code></td><td>खरा Reddit डेटा; वय फक्त लेखकाने स्वतः सांगितले तेव्हाच</td><td>~२ मि.</td></tr>
+</table>
+
+<h2 class="pb">६. परीक्षेची तयारी</h2>
+<h3>६.१ आदल्या दिवशीची चेकलिस्ट</h3>
+<ul>
+  <li>☐ लॅपटॉप चार्ज + चार्जर; VS Code मध्ये प्रोजेक्ट उघडा.</li>
+  <li>☐ Environment चालू: <code>python main.py check</code> &rarr; ready.</li>
+  <li>☐ चाचण्या: <code>python -m pytest -q</code> &rarr; सर्व passed.</li>
+  <li>☐ मुख्य डेमो आधीच चालवून ठेवा: <code>python main.py full --input data/sample/sample_clean.csv</code>.</li>
+  <li>☐ <b>बॅकअप:</b> <code>Copy-Item outputs outputs_backup -Recurse</code> आणि हे PDF, स्क्रीनशॉट्स (<code>docs/guide_assets</code>) सोबत ठेवा. काही बिघडले तर निकाल/स्क्रीनशॉट्स दाखवता येतात.</li>
+  <li>☐ इंटरनेटवर अवलंबून राहू नका: ऑफलाइन AI मोड वापरा (डिफॉल्ट); खुला डेटा आधीच डाउनलोड करा.</li>
+  <li>☐ तुमची स्वतःची एक छोटी फाईल (५०&ndash;२०० ओळी) तयार ठेवा, म्हणजे &ldquo;नवीन डेटा&rdquo; दाखवता येईल.</li>
+  <li>☐ परीक्षक त्यांचा डेटा देतील तर: त्यांच्या सूचनेनुसार वैयक्तिक माहिती असेल तर परवानगी घ्या; डेमो नंतर <code>data/raw</code> मधून ती फाईल डिलीट करा.</li>
+</ul>
+
+<h3>६.२ १० मिनिटांची डेमो स्क्रिप्ट</h3>
+<table>
+<tr><th>वेळ</th><th>काय करायचे / काय म्हणायचे</th></tr>
+<tr><td>०:००&ndash;१:००</td><td>उद्देश सांगा: &ldquo;वय आणि भाषेनुसार मजकुरातील पॅटर्न आणि मॉडेलची गटवार कामगिरी तपासतो. हे निदान साधन नाही.&rdquo;</td></tr>
+<tr><td>१:००&ndash;२:००</td><td>प्रवाह चित्र (भाग २) दाखवा: डेटा &rarr; स्वच्छता &rarr; विश्लेषण &rarr; मॉडेल &rarr; AI &rarr; डॅशबोर्ड.</td></tr>
+<tr><td>२:००&ndash;३:३०</td><td>Overview: पोस्ट संख्या, cleaning report, पिवळा पट्टा (डेटा कृत्रिम).</td></tr>
+<tr><td>३:३०&ndash;५:००</td><td>Age analysis व Language analysis: आलेख, p-value, लहान गटांचा इशारा.</td></tr>
+<tr><td>५:००&ndash;६:३०</td><td>Model comparison: ३ मॉडेल्स, confusion matrix, fairness gap.</td></tr>
+<tr><td>६:३०&ndash;७:३०</td><td>Explainability व Generative AI: &ldquo;आकडे पडताळले&rdquo;, &ldquo;मानवी तपासणी आवश्यक&rdquo;.</td></tr>
+<tr><td>७:३०&ndash;९:३०</td><td><b>नवीन डेटा:</b> Upload &rarr; Run pipeline. थांबताना प्रवाह/मर्यादा समजवा. निकाल दाखवा.</td></tr>
+<tr><td>९:३०&ndash;१०:००</td><td>मर्यादा पान: निदान नाही, प्रॉक्सी लेबल्स, भविष्यातील काम (सर्वेक्षण Track C).</td></tr>
+</table>
+<div class="box ok"><b>टीप:</b> नवीन डेटा चालवताना वेळ लागल्यास घाबरू नका; आधी चालवलेले निकाल बाजूला ठेवलेले असले (किंवा दुसरे ब्राउझर टॅब) तर बोलत राहता येते.</div>
+
+<h2 class="pb">७. परीक्षक विचारू शकतील असे प्रश्न आणि सोपी उत्तरे</h2>
+<table>
+<tr><th>प्रश्न</th><th>उत्तर</th></tr>
+<tr><td>हे निदान करते का?</td><td>नाही. हे संशोधन साधन आहे; फक्त मजकुराचे पॅटर्न तपासते. कोणत्याही व्यक्तीबद्दल निर्णय घेऊ नये.</td></tr>
+<tr><td>डेटा खरा आहे का?</td><td>सॉफ्टवेअर तपासण्यासाठी कृत्रिम डेटा आहे (पिवळा पट्टा दाखवतो). खरा खुला डेटा (BRIGHTER, Reddit) प्रॉक्सी लेबल्ससह वापरला. वय+भाषा+लेबल एकत्र असलेला खरा डेटा आमच्या परवानगीसह सर्वेक्षणातून (Track C) गोळा करण्याची योजना आहे.</td></tr>
+<tr><td>प्रॉक्सी लेबल म्हणजे काय?</td><td>खरे वैद्यकीय निदान नसलेले लेबल (उदा. भावना टॅग किंवा कोणत्या फोरममधील पोस्ट). म्हणून निकाल &ldquo;डिप्रेशन&rdquo; सिद्ध करत नाहीत.</td></tr>
+<tr><td>वय कसे मिळवले? अंदाज लावता का?</td><td>कधीही अंदाज नाही. फाईलमध्ये दिलेले किंवा लेखकाने स्वतः लिहिलेले (उदा. &ldquo;24F&rdquo;) वय वापरतो. नसेल तर &ldquo;unknown&rdquo;.</td></tr>
+<tr><td>Macro-F1 म्हणजे काय?</td><td>० ते १ गुण; सर्व लेबल्सना समान महत्त्व देतो, म्हणून फक्त accuracy पेक्षा योग्य, विशेषतः असंतुलित डेटासाठी.</td></tr>
+<tr><td>Data leakage कशी टाळली?</td><td>एका लेखकाच्या सर्व पोस्ट एकाच बाजूला (train किंवा test); TF-IDF फक्त training भागावर शिकतो; डुप्लिकेट काढले.</td></tr>
+<tr><td>p-value आणि Cramér's V?</td><td>p &lt; ०.०५ = फरक योगायोग असण्याची शक्यता कमी. Cramér's V = फरक किती मोठा.</td></tr>
+<tr><td>लहान गटांचे काय?</td><td>३० पेक्षा कमी (विश्लेषण) / १०० पेक्षा कमी (मॉडेल गुण) असलेल्या गटांवर निष्कर्ष काढत नाही; इशारा/लपवणे.</td></tr>
+<tr><td>हिंदी/मराठी/मिश्र भाषा कशी हाताळता?</td><td>लिपी (देवनागरी/रोमन) व शब्द-खुणांवर आधारित भाषा ओळख; रोमन मजकुरात फक्त प्रसिद्ध स्पेलिंग बदल सुधारतो; मूळ मजकूर नेहमी जपला जातो.</td></tr>
+<tr><td>जनरेटिव्ह AI कसा सुरक्षित ठेवला?</td><td>फक्त एकत्रित आकडे दिले जातात (कच्च्या पोस्ट नाही); निकालातील प्रत्येक आकडा तपासला जातो; धोकादायक वाक्ये अडवली जातात; जागरूकता मजकुरावर &ldquo;माणसाने तपासलेला नाही&rdquo; शिक्का.</td></tr>
+<tr><td>गोपनीयता?</td><td>ईमेल, फोन, लिंक, @नावे काढतो; लेखकांचे नाव hash करतो; कच्चे उदाहरण प्रसिद्ध करत नाही.</td></tr>
+<tr><td>नवीनता काय?</td><td>एकाच साधनात वय आणि भाषानिहाय गटवार मूल्यांकन, अनिश्चितता (confidence range) व निष्पक्षता फरकांसह, तसेच सुरक्षित GenAI. (&ldquo;आधी कोणीच केले नाही&rdquo; असे म्हणू नका &mdash; साहित्य सर्वेक्षण पूर्ण झाल्यावरच दावा करा.)</td></tr>
+<tr><td>मर्यादा?</td><td>प्रॉक्सी लेबल्स, सेल्फ-रिपोर्टेड वय, Reddit चा विशिष्ट वापरकर्ता वर्ग, लहान गट, नियमांवर आधारित भाषा ओळख, वैद्यकीय पडताळणी नाही.</td></tr>
+<tr><td>पुढील काम?</td><td>परवानगीसह सर्वेक्षण डेटा, XLM-R/MuRIL मॉडेल, स्पष्टीकरणांची स्थिरता, मराठी/हिंदी मजकुराचे तज्ज्ञ पुनरावलोकन.</td></tr>
+</table>
+
+<h2 class="pb">७अ. तोंडी परीक्षेत तक्ता कसा समजवायचा (सराव)</h2>
+<h3>age_label_table चे स्तंभ</h3>
+<table>
+<tr><th>स्तंभ</th><th>अर्थ</th><th>उदाहरण (13-17, none)</th></tr>
+<tr><td><code>age_band</code></td><td>वयोगट</td><td>13-17</td></tr>
+<tr><td><code>label</code></td><td>पोस्टला दिलेले लेबल</td><td>none</td></tr>
+<tr><td><code>count</code></td><td>या वयोगटात या लेबलच्या पोस्ट</td><td>52</td></tr>
+<tr><td><code>n</code></td><td>त्या वयोगटातील एकूण पोस्ट</td><td>162</td></tr>
+<tr><td><code>pct</code></td><td>count &divide; n &times; १००</td><td>३२.१%</td></tr>
+<tr><td><code>ci_low_pct</code>, <code>ci_high_pct</code></td><td>९५% विश्वासाची श्रेणी (Wilson). रुंद = कमी डेटा</td><td>२५.४% ते ३९.६%</td></tr>
+<tr><td><code>sufficient_n</code></td><td>n &ge; ३० असेल तर True; नसेल तर निष्कर्ष काढू नका</td><td>True</td></tr>
+</table>
+<div class="box ok"><b>३० सेकंदांचे उत्तर:</b> &ldquo;हा तक्ता प्रत्येक वयोगटात प्रत्येक लेबलच्या पोस्ट किती आहेत ते दाखवतो. उदा. १३&ndash;१७ गटात १६२ पोस्टपैकी ५२ &lsquo;none&rsquo; म्हणजे ३२%. हा फक्त नमुन्याचा आकडा असल्याने २५ ते ४०% अशी ९५% विश्वासाची श्रेणीही दिली आहे. गटात ३० पेक्षा कमी पोस्ट असतील तर <code>sufficient_n</code> False येतो आणि आम्ही त्यावर निष्कर्ष काढत नाही.&rdquo;</div>
+<h3>सराव प्रश्न (स्वतःला विचारा)</h3>
+<table>
+<tr><th>प्रश्न</th><th>उत्तर</th></tr>
+<tr><td>Confidence interval कशासाठी?</td><td>नमुन्यातील आकडा १००% खरा नसतो. श्रेणी दाखवते की खरा आकडा साधारण कुठे असू शकतो. रुंद श्रेणी = कमी डेटा.</td></tr>
+<tr><td>Wilson पद्धत का?</td><td>लहान नमुन्यांवर आणि ०%/१००% जवळ साध्या पद्धतीपेक्षा जास्त विश्वासार्ह.</td></tr>
+<tr><td>३० ही मर्यादा कुठून?</td><td>सर्वसामान्य थंब रूल; <code>config/config.yaml</code> मध्ये <code>analysis.min_group_n</code> ने बदलता येते.</td></tr>
+<tr><td>१३&ndash;१७ ची श्रेणी रुंद आणि १८&ndash;२५ ची अरुंद का?</td><td>१३&ndash;१७ मध्ये n=१६२, १८&ndash;२५ मध्ये n=३७४. जास्त पोस्ट = अरुंद श्रेणी.</td></tr>
+<tr><td>हे निष्कर्ष खरे आहेत का?</td><td>सध्याचा डेटा कृत्रिम आहे, म्हणून नाही. खरा डेटा आल्यावर श्रेणी आणि नमुन्याचा आकार पाहून निष्कर्ष काढू.</td></tr>
+<tr><td>वयोगटांतील फरक सांख्यिकीय आहे का?</td><td>chi-square चाचणी: p &lt; ०.०५ = फरक योगायोग असण्याची शक्यता कमी. Cramér's V = फरक किती मोठा (०.१ लहान, ०.३ मध्यम).</td></tr>
+<tr><td>हा तक्ता डिप्रेशन सिद्ध करतो का?</td><td>नाही. हे निदान नाही; लेबल्स प्रॉक्सी असू शकतात.</td></tr>
+<tr><td>sufficient_n False असेल तर काय?</td><td>त्या ओळीच्या टक्केवारीवर निष्कर्ष काढत नाही; आणखी डेटा गोळा करण्याची गरज सांगतो.</td></tr>
+<tr><td>Macro-F1 आणि accuracy मध्ये फरक?</td><td>Macro-F1 सर्व लेबल्सना समान महत्त्व देतो; असंतुलित डेटावर accuracy फसवी ठरू शकते.</td></tr>
+<tr><td>Fairness gap म्हणजे?</td><td>सर्वोत्तम आणि सर्वात वाईट गटातील macro-F1 चा फरक. मोठा फरक = मॉडेल काही गटांसाठी कमी चांगले.</td></tr>
+</table>
+<div class="box bad"><b>बोलू नका:</b> &ldquo;हा तक्ता डिप्रेशन दाखवतो&rdquo;, &ldquo;हा आकडा १००% खरा आहे&rdquo;. नेहमी श्रेणी आणि नमुन्याचा आकार सोबत सांगा.</div>
+
+<h2>८. अडचणी आणि उपाय</h2>
+<table>
+<tr><th>समस्या</th><th>उपाय</th></tr>
+<tr><td>&ldquo;Pipeline failed&rdquo;</td><td>साइडबारमधील संदेश वाचा. बहुतेक वेळा फाईलमध्ये text/label स्तंभ नसतात किंवा ती &ldquo;raw&rdquo; (लेबल नसलेली) फाईल असते. Reddit कच्च्या फाईलसाठी आधी <code>prepare-reddit</code> चालवा.</td></tr>
+<tr><td>विश्लेषण अडकल्यासारखे वाटते</td><td>मॉडेल प्रशिक्षणाला १&ndash;३ मिनिटे लागतात; वाट पाहा.</td></tr>
+<tr><td>Dashboard मध्ये &ldquo;No results yet&rdquo;</td><td>Run pipeline दाबा किंवा <code>python main.py full --input ...</code> चालवा.</td></tr>
+<tr><td>मराठी अक्षरे बिघडली (????)</td><td>CSV UTF-8 मध्ये सेव्ह करा.</td></tr>
+<tr><td><code>ModuleNotFoundError</code></td><td>Environment चालू करा; <code>python -m pip install -r requirements.txt</code>.</td></tr>
+<tr><td>Port आधीच वापरात</td><td><code>python -m streamlit run app.py --server.port 8600</code></td></tr>
+<tr><td>Activation blocked</td><td><code>Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned</code></td></tr>
+<tr><td>ब्राउझर कन्सोलमध्ये लाल संदेश (message port closed ...)</td><td>ब्राउझर एक्स्टेंशनचे संदेश आहेत; अॅपशी संबंध नाही, दुर्लक्ष करा.</td></tr>
+</table>
+
+<h2>९. काय म्हणू नये (प्रामाणिक दावे)</h2>
+<ul>
+  <li>&ldquo;हा अॅप डिप्रेशन ओळखतो / निदान करतो&rdquo; &mdash; <b>असे नाही.</b></li>
+  <li>&ldquo;आमचे निकाल खऱ्या लोकसंख्येला लागू&rdquo; &mdash; कृत्रिम व प्रॉक्सी डेटावर असे म्हणू नका.</li>
+  <li>&ldquo;असे संशोधन याआधी कोणीच केलेले नाही&rdquo; &mdash; साहित्य सर्वेक्षणाशिवाय म्हणू नका.</li>
+  <li>&ldquo;AI मजकूर तयार, थेट वापरता येईल&rdquo; &mdash; माणसाने तपासल्याशिवाय नाही.</li>
+</ul>
+
+<h2>१०. प्रोजेक्ट फोल्डर नकाशा</h2>
+<pre>main.py            कमांड-लाइन प्रवेश
+app.py             डॅशबोर्ड (UI)
+config/config.yaml सेटिंग्ज (वयोगट, किमान गट-आकार, elevated लेबल्स)
+src/data/          लोडिंग, स्वच्छता, भाषा ओळख, स्पेलिंग सुधारणा, खुले डेटासेट, कृत्रिम डेटा
+src/analysis/      वय, भाषा, मिश्र भाषा, वय×भाषा विश्लेषण
+src/models/        मॉडेल प्रशिक्षण, गटवार मूल्यांकन, स्पष्टीकरण
+src/genai/         AI सारांश, जागरूकता मजकूर, सुरक्षा तपासण्या
+tests/             स्वयंचलित चाचण्या
+docs/              आवश्यकता, डेटासेट संशोधन, योजना, सर्वेक्षण, IEEE अहवाल, मॅन्युअल, हे मार्गदर्शक</pre>
+
+</body>
+</html>
