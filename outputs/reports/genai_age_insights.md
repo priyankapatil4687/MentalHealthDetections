@@ -1,0 +1,5 @@
+# Age-wise insights (generated, source: offline-template)
+
+NOTE: this run used synthetic test data, so none of the findings below are evidence about real people. After cleaning, the dataset contains 1200 posts. The share of posts with an elevated label ranges from 16.5% in age band 46+ to 43.3% in age band 18-25 (age bands with at least 30 posts). A chi-square test indicates the label distribution differs across age bands (p < 0.001; Cramer's V = 0.133). Languages with enough posts: en (487), hinglish (209), hi (183), mr (167), roman_mr (154); 30.2% of posts are code-mixed or Romanized. Of 3 models compared, complement_nb had the best macro-F1 (0.836). Across age_band groups its macro-F1 gap is 0.089. Across age_band x language groups its macro-F1 gap is 0.034. Across language groups its macro-F1 gap is 0.079. These are associations in dataset labels only. They do not show causes, are not a diagnosis, and must not be used to make decisions about individuals.
+
+_Generated from aggregated statistics only. Verify before use._

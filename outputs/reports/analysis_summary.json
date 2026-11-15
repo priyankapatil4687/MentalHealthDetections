@@ -1,0 +1,259 @@
+{
+  "rows": 1200,
+  "sources": [
+    "sample_clean.csv"
+  ],
+  "age_analysis_O1_O2": {
+    "rows_total": 1200,
+    "rows_with_age": 1200,
+    "label_vs_age_chi_square": {
+      "chi2": 63.65557994407911,
+      "p_value": 4.826865134851357e-09,
+      "dof": 12,
+      "n": 1200.0,
+      "cramers_v": 0.1329740784514861,
+      "share_cells_expected_lt5": 0.0
+    },
+    "kruskal_wallis": {
+      "word_count": {
+        "H": 1.193410250701043,
+        "p_value": 0.8791823808900279,
+        "n": 1200,
+        "groups": 5,
+        "epsilon_squared": 0.0009953379905763492
+      },
+      "first_person_rate": {
+        "H": 5.2712140477035945,
+        "p_value": 0.260583760347961,
+        "n": 1200,
+        "groups": 5,
+        "epsilon_squared": 0.004396341991412506
+      }
+    },
+    "fdr_adjusted_p": {
+      "label_vs_age": 1.448059540455407e-08,
+      "word_count": 0.8791823808900278,
+      "first_person_rate": 0.39087564052194146
+    },
+    "group_sizes": {
+      "18-25": 374,
+      "26-35": 274,
+      "36-45": 202,
+      "46+": 188,
+      "13-17": 162
+    },
+    "small_groups_below_min_n": [],
+    "elevated_share_by_age_band_pct": {
+      "13-17": 38.88888888888889,
+      "18-25": 43.31550802139038,
+      "26-35": 32.846715328467155,
+      "36-45": 23.26732673267327,
+      "46+": 16.48936170212766
+    },
+    "status": "ok"
+  },
+  "language_analysis_O3": {
+    "status": "ok",
+    "language_counts": {
+      "en": 487,
+      "hinglish": 209,
+      "hi": 183,
+      "mr": 167,
+      "roman_mr": 154
+    },
+    "languages_below_min_n": [],
+    "label_vs_language_chi_square": {
+      "chi2": 7.29245618608727,
+      "p_value": 0.8376971715438256,
+      "dof": 12,
+      "n": 1200.0,
+      "cramers_v": 0.04500758018282176,
+      "share_cells_expected_lt5": 0.0
+    },
+    "code_mixed_share_pct": 30.25,
+    "language_source_counts": {
+      "provided": 1200
+    },
+    "detector_agreement_on_provided_pct": 99.5,
+    "note": "Language detection is a rule-based hint, not ground truth."
+  },
+  "codemixed_O3": {
+    "status": "ok",
+    "romanized_rows": 363,
+    "share_of_dataset_pct": 30.25,
+    "rows_changed_by_normalization": 9,
+    "vocab_before": 168,
+    "vocab_after": 167,
+    "code_mixed_languages": [
+      "hinglish",
+      "roman_mr"
+    ],
+    "macro_f1_before_normalization": 0.8237898689328637,
+    "macro_f1_after_normalization": 0.8233296969665614
+  },
+  "age_language_O4": {
+    "status": "ok",
+    "cells_total": 25,
+    "cells_below_min_n": 7,
+    "share_cells_sufficient_pct": 72.0,
+    "elevated_labels": [
+      "moderate",
+      "severe",
+      "negative_affect",
+      "mh_forum"
+    ]
+  },
+  "models_O5": {
+    "status": "ok",
+    "n_rows": 1200,
+    "cv": "5-fold author-grouped stratified CV x 3 seeds",
+    "best_model": "complement_nb",
+    "overall": [
+      {
+        "model": "complement_nb",
+        "n_splits": 5,
+        "seeds": 3,
+        "accuracy_mean": 0.8497,
+        "accuracy_std": 0.0004,
+        "macro_f1_mean": 0.8359,
+        "macro_f1_std": 0.0003,
+        "macro_precision_mean": 0.831,
+        "macro_precision_std": 0.0004,
+        "macro_recall_mean": 0.8417,
+        "macro_recall_std": 0.0003,
+        "mcc_mean": 0.7904,
+        "mcc_std": 0.0005
+      },
+      {
+        "model": "logreg",
+        "n_splits": 5,
+        "seeds": 3,
+        "accuracy_mean": 0.8408,
+        "accuracy_std": 0.0018,
+        "macro_f1_mean": 0.823,
+        "macro_f1_std": 0.0015,
+        "macro_precision_mean": 0.8171,
+        "macro_precision_std": 0.0017,
+        "macro_recall_mean": 0.8305,
+        "macro_recall_std": 0.0013,
+        "mcc_mean": 0.7782,
+        "mcc_std": 0.0024
+      },
+      {
+        "model": "linear_svm",
+        "n_splits": 5,
+        "seeds": 3,
+        "accuracy_mean": 0.8381,
+        "accuracy_std": 0.001,
+        "macro_f1_mean": 0.8182,
+        "macro_f1_std": 0.0015,
+        "macro_precision_mean": 0.8136,
+        "macro_precision_std": 0.0016,
+        "macro_recall_mean": 0.8241,
+        "macro_recall_std": 0.0015,
+        "mcc_mean": 0.7739,
+        "mcc_std": 0.0014
+      }
+    ],
+    "fairness_gaps": [
+      {
+        "model": "complement_nb",
+        "group_type": "age_band",
+        "groups_compared": 5,
+        "macro_f1_gap": 0.0892,
+        "worst_group": "36-45",
+        "recall_gap": 0.0733
+      },
+      {
+        "model": "complement_nb",
+        "group_type": "age_band x language",
+        "groups_compared": 2,
+        "macro_f1_gap": 0.0338,
+        "worst_group": "18-25 | en",
+        "recall_gap": 0.0247
+      },
+      {
+        "model": "complement_nb",
+        "group_type": "language",
+        "groups_compared": 5,
+        "macro_f1_gap": 0.079,
+        "worst_group": "en",
+        "recall_gap": 0.0827
+      },
+      {
+        "model": "linear_svm",
+        "group_type": "age_band",
+        "groups_compared": 5,
+        "macro_f1_gap": 0.0617,
+        "worst_group": "36-45",
+        "recall_gap": 0.0622
+      },
+      {
+        "model": "linear_svm",
+        "group_type": "age_band x language",
+        "groups_compared": 2,
+        "macro_f1_gap": 0.0201,
+        "worst_group": "18-25 | en",
+        "recall_gap": 0.0171
+      },
+      {
+        "model": "linear_svm",
+        "group_type": "language",
+        "groups_compared": 5,
+        "macro_f1_gap": 0.0914,
+        "worst_group": "en",
+        "recall_gap": 0.0958
+      },
+      {
+        "model": "logreg",
+        "group_type": "age_band",
+        "groups_compared": 5,
+        "macro_f1_gap": 0.0759,
+        "worst_group": "36-45",
+        "recall_gap": 0.0733
+      },
+      {
+        "model": "logreg",
+        "group_type": "age_band x language",
+        "groups_compared": 2,
+        "macro_f1_gap": 0.0392,
+        "worst_group": "18-25 | en",
+        "recall_gap": 0.033
+      },
+      {
+        "model": "logreg",
+        "group_type": "language",
+        "groups_compared": 5,
+        "macro_f1_gap": 0.0823,
+        "worst_group": "en",
+        "recall_gap": 0.0848
+      }
+    ],
+    "min_group_n_for_model_metrics": 100,
+    "groups_insufficient_n": [
+      "13-17 | en",
+      "13-17 | hi",
+      "13-17 | hinglish",
+      "13-17 | mr",
+      "13-17 | roman_mr",
+      "18-25 | hi",
+      "18-25 | hinglish",
+      "18-25 | mr",
+      "18-25 | roman_mr",
+      "26-35 | hi",
+      "26-35 | hinglish",
+      "26-35 | mr",
+      "26-35 | roman_mr",
+      "36-45 | en",
+      "36-45 | hi",
+      "36-45 | hinglish",
+      "36-45 | mr",
+      "36-45 | roman_mr",
+      "46+ | en",
+      "46+ | hi",
+      "46+ | hinglish",
+      "46+ | mr",
+      "46+ | roman_mr"
+    ]
+  }
+}

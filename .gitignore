@@ -218,3 +218,38 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---- Project specific ----
+# Derived / regenerable artifacts (rebuild with main.py)
+data/processed/
+outputs/models/
+*.joblib
+*.pkl
+
+# Real or sensitive datasets and survey/consent responses - never commit
+data/raw/
+data/external/
+data/private/
+data/survey_responses/
+*consent*.csv
+*responses*.csv
+
+# Secrets / API keys
+.env.*
+*.key
+*.pem
+secrets.toml
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+.idea/
+.vscode/*.log
+
+# Temp / scratch
+tmp/
+temp/
+*.bak
+*.tmp

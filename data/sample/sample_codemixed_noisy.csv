@@ -1,0 +1,364 @@
+﻿source_id,text,label,age,language
+user_0255,Sach bolunnn toh kuchh din se kisi cheez meinnn mann nahin lag raha. Ghar aur job dono sambhalna mushkil hain. Bas yahi likhna tha.,mild,42,hinglish
+user_0447,"Honestly, Aaj main bahut khush hoon aur sab kucch theek chal rahaaa hain. Friends ke saath time spend kiya, muje accha lag raha hai.",none,19,hinglish
+user_0224,Sach bolun toh mujhko zyada tar din sad lagta hai aur nend nhi aati. Pata nahee kyun share kar raha hoon.,moderate,14,hinglish
+user_0163,Halli Mi aata sahan karu shakat nahi aani swatahla nirupayogi samajto. mla konatihi asha disattt nahi aani sagla nirarthak vatate. Ka sangtoyyy mahit nahi.,severe,14,roman_mr
+user_0092,Halli Mitranbarobar vel ghalvun mala bara vatla. Hech lihaycha hota.,none,23,roman_mr
+user_0287,Halli Aaj mi khoop khush aahe aani mla chhan vatat aahey.,none,31,roman_mr
+user_0184,Aaj mi khoop khush aahe ani mala chhan vatat ahe. Hech lihaycha hota.,mild,30,roman_mr
+user_0423,"Honestly, kuchh din se kisi cheez meinnn mann nahee lag raha. Is week muje kucch karne ka mann nhi hain. Pata nahi kyun share kar raha hoon.",mild,35,hinglish
+user_0268,Khar sangayche tar Aaj mi khoop khush aahe ani mala chhan vatat aahey. Mitranbarobar vel ghalvun mala bara vatla. Hech lihaycha hota.,none,18,roman_mr
+user_0216,"Friends ke saath time spend kiya, mujhey accha lag raha hain. Health aur retirement ki chinta rehti hain. Pata nahee kyun share kar raha hoon.",none,65,hinglish
+user_0206,"Honestly, Friends ke saath time spend kiya, mujhe accha lag raha hai. College aur placement ki tension hai. Pataaa nahi kyun share kar raha hoon.",none,23,hinglish
+user_0008,Halli Aaj mi khup khush ahe aani mla chhan vatattt aahey. Ka sangtoy mahit nhi.,none,43,roman_mr
+user_0499,Halli mla satat chinta aani ekatepana vatato...,moderate,58,roman_mr
+user_0456,Sach bolun toh Aaj main bahut khush hoon aur sab kuch theek chal raha hain. Internshippp ka stress hai. Bas yahi likhna tha.,none,20,hinglish
+user_0296,Sach bolun toh Aajkal thoda low aur tired feel hotaaa hain. Is week mujhe kucch karne ka mann nahee hain.,mild,14,hinglish
+user_0458,"Honestly, Mujhe hamesha anxiety aur akelapan feelll hota hain. Ab kisi cheez mein maza nahi aata, bahot thak gaya hoon. Internship ka stress hai.",moderate,19,hinglish
+user_0135,Halli mla bahutek divas udas vatate aani jhop yet nahee. Hech lihaycha hota.,moderate,13,roman_mr
+user_0334,Khar sangayche tar Mitranbarobarrr vel ghalvun mala bara vatla.,none,28,roman_mr
+user_0134,"Friends ke saath time spend kiya, mujhe accha lag raha hai. Pata nahi kyun share kar raha hoon.",none,32,hinglish
+user_0117,"Sach bolun toh Mujhmein koi energy nai hai, kuchh bhi matter nahi karta. Main ab handle nahin kar pa raha aur khud ko bekar samajhta hoon. Ghar mein comparison hota rehta hai.",severe,13,hinglish
+user_0459,"Honestly,,, Mujhmein koi energy nahi hai, kuch bhi matter nahee karta. Job bahut demanding hai. Pata nahin kyun share kar raha hoon.",moderate,33,hinglish
+user_0241,Halli Kahi divasanpasun kashat mann lagat nahin. Ka sangtoy mahit nahi.,mild,43,roman_mr
+user_0406,Sab kuchhh acchaaa hain aur nend bhi poori hoti hai. Aaj main bahut khush hoon aur sab kucch theek chal raha hai. Bas yahi likhna tha.,none,18,hinglish
+user_0342,"Honestly, Friends ke saath time spend kiya, muje accha lag raha hai. Pata nahee kyun share kar raha hoon.",none,34,hinglish
+user_0093,Mitranbarobar vel ghalvun mala bara vatla. Aaj mi khoop khush aahey aani mla chhan vatat aahey.,none,30,roman_mr
+user_0385,Halli mla konatihi asha disat nahi aani sagla nirarthak vatate. Mi aata sahan karu shakat nahee aani swatahla nirupayogi samajto.,severe,21,roman_mr
+user_0147,"Honestly, mujhko hamesha anxiety aur akelapan feel hota hain. Internship ka stress hain. Bas yahi likhna tha.",moderate,24,hinglish
+user_0111,Sach bolun toh Sab kucch accha hai aur nind bhi poori hoti hain. Health aur retirement ki chinta rehti hain.,none,52,hinglish
+user_0477,"Honestly, muje zyada tar din sad lagta hai aur neend nai aati. Health aur retirement ki chinta rehti hai. Pata nahi kyun share kar raha hoon.",moderate,53,hinglish
+user_0381,Halli Sagla vyavasthit chalu aahey ani mala shant jhop lagte. Ka sangtoy mahit nahin.,none,19,roman_mr
+user_0557,"Honestly, Ab kisi cheezzz mein maza nahi aata,,, bahut thak gaya hoon. muje zyada tar din sad lagta hain aur nind nahi aati. Exams ka pressure bahot hain.",moderate,17,hinglish
+user_0134,"Honestly, Is week mujhey kuch karne ka mann nahi hai. Aajkal thoda low aur tired feel hota hain.",mild,32,hinglish
+user_0021,Sach bolunnn toh kuchh din se kisi cheez mein mann nhi lag raha. Aajkal thoda low aur tired feel hota hai. Office ke deadlines aur EMI ka stress hain. Pata nahee kyun share kar raha hoon.,mild,26,hinglish
+user_0313,Mala bahutek divas udaas vatate ani zop yet nahin.,moderate,35,roman_mr
+user_0371,"Honestly, Aaj main bahot khush hoon aur sab kuch theek chal raha hai. Sab kucch accha hai aur nind bhi poori hoti hain. Office ke deadlines aur EMI ka stress hain.",none,27,hinglish
+user_0073,"Honestly, Ab kisi cheez mein maza nahin aata, bhot thak gaya hoon. muje hamesha anxiety aur akelapan feel hota hain.",severe,25,hinglish
+user_0590,Halli mla satat chinta aani ekatepana vatato. mla bahutek divas udaas vatate aani zop yet nahi. Hech lihaycha hota.,moderate,35,roman_mr
+user_0446,muje zyada tar din sad lagta hai aur nend nahi aati. Ghar mein comparison hota rehta hain. Bas yahi likhna tha.,moderate,17,hinglish
+user_0151,"Honestly, Sab kuchh accha hain aur neend bhi poori hoti hai... Internship ka stress hai.",none,25,hinglish
+user_0313,Mala bahutek divas udaas vatate aani zop yet nahi. mla satat chinta aani ekatepana vatato.,moderate,35,roman_mr
+user_0094,"Friends ke saath time spend kiya, mujhe accha lag raha hai. Sab kucch accha hai aur nend bhi poori hoti hai. Loan aur bachchon ki padhai ki chinta hain. Pata nahi kyun share kar raha hoon.",none,40,hinglish
+user_0590,Halli Kahi divasanpasun kashat mann lagat nai. Hech lihaychaaa hota.,mild,35,roman_mr
+user_0395,"Sach bolun toh Main ab handle nhi kar pa rahaaa aur khud ko bekar samajhta hoon. Mujhmein koi energy nhi hain, kuchh bhi matter nahi karta.",severe,20,hinglish
+user_0284,"Honestly, Aaj main bahut khush hoon aur sab kuch theek chal raha hain. Sab kucch accha hain aur nind bhi poori hoti hai. Health aur retirement ki chinta rehti hai.",none,57,hinglish
+user_0202,Is week mujhe kuchh karne ka mann nahee hain. Ghar aur job dono sambhalna mushkil hai... Bas yahi likhna tha.,mild,38,hinglish
+user_0560,Khar sangayche tar Saglaaa vyavasthit chalu aahey ani mla shant jhop lagte. Aaj mi khoop khush aahey ani mala chhan vatat aahe. Hech lihaycha hota.,none,35,roman_mr
+user_0550,"Honestly, Is weekkk mujhko kuchh karne ka mann nahee hain. Kuch din se kisi cheez mein mann nahiii lag raha. Ghar mein comparison hota rehta hain.",mild,15,hinglish
+user_0284,Sach bolun toh Sab kuch accha hain aur nend bhi poori hoti hai. Aaj main bahot khush hoon aur sab kucch theek chal raha hai. Pata nhi kyun share kar raha hoon.,none,57,hinglish
+user_0520,"Honestly, muje koi hope nahee dikhti, sab kucch bekar lagta hai. Mujhmein koi energy nhi hain, kuchh bhi matter nahin karta. Internship ka stress hain. Pataaa nahi kyun share kar raha hoon.",moderate,24,hinglish
+user_0129,"Sach bolun toh Ab kisi cheez mein maza nai aata, bohot thak gaya hoon. Mujhe zyada tar din sad lagta hain aur nend nahee aati. Job bahut demanding hain.",moderate,30,hinglish
+user_0479,"Honestly, Sab kuchh accha hai aur nind bhi poori hoti hain. Pataaa nai kyun share kar raha hoon.",none,19,hinglish
+user_0147,Aaj main bahut khush hoon aur sab kuch theek chal raha hain. Internship ka stress hain.,none,24,hinglish
+user_0575,Khar sangayche tar Kahi divasanpasun kashat mann lagat nai.,mild,50,roman_mr
+user_0446,Is week mujhe kucch karne ka mann nahin hai. Bas yahi likhna tha.,mild,17,hinglish
+user_0073,Sach bolun toh mujhey zyada tar din sad lagta hai aur nind nhi aati. College aur placement ki tension hai.,moderate,25,hinglish
+user_0541,Mujhe zyadaaa tar din sad lagta hain aur nind nhi aati... College aur placement ki tension hain.,mild,24,hinglish
+user_0440,"Mujhmein koi energy nahee hai, kuch bhi matter nahi karta. muje koi hope nahi dikhti, sab kuch bekarrr lagta hain.",moderate,13,hinglish
+user_0348,Halli Halli mla thoda udaas ani thaklyasarkhe vatate. Hech lihaycha hota.,mild,40,roman_mr
+user_0563,Sab kuch accha hai aur nend bhi poori hoti hai. Healthhh aur retirement ki chinta rehti hai. Pata nai kyun share kar raha hoon...,none,65,hinglish
+user_0479,Aajkal thoda low aur tired feel hota hai. College aur placement ki tension hain. Bas yahi likhna tha.,mild,19,hinglish
+user_0513,Khar sangayche tar mla satat chinta aani ekatepana vatato. Aata kashat maja vatat nahi aani mi khoop thaklo aahe. Hech lihaycha hota.,moderate,30,roman_mr
+user_0184,Khar sangayche tar Malaaa bahutek divas udas vatate aani jhop yet nahi. Aata kashat maja vatat nahi ani mi khoop thaklo aahe. Hech lihaycha hota.,moderate,30,roman_mr
+user_0365,Khar sangayche tar Ya athvadyat mala kahi karnyachi ichha nahin. Halli mla thoda udas aani thaklyasarkhe vatate... Ka sangtoy mahit nahi.,none,63,roman_mr
+user_0261,"Sach bolun toh Friends ke saath time spend kiya, mujhey accha lag raha hain. Internship ka stress hai. Pata nahee kyun share kar raha hoon.",none,25,hinglish
+user_0499,Mitranbarobar vel ghalvun mala bara vatla. Hech lihaycha hota.,none,58,roman_mr
+user_0445,Khar sangayche tar Kahi divasanpasun kashat mann lagat nai. Ya athvadyat mla kahi karnyachi ichha nahin.,moderate,54,roman_mr
+user_0324,Mala satat chinta ani ekatepana vatato. Aata kashat maja vatat nahi ani mi khup thaklo ahe. Hech lihaycha hota.,moderate,17,roman_mr
+user_0299,"Main ab handle nhi kar pa raha aur khud ko bekar samajhta hoon. mujhko koi hope nahi dikhti, sab kuch bekar lagta hai. Loannn aur bachchon ki padhai ki chinta hain. Pata nahi kyun share kar raha hoon.",severe,39,hinglish
+user_0557,Sach bolun toh Is week mujhko kuch karne ka mann nahee hai. Ghar mein comparison hota rehta hai.,mild,17,hinglish
+user_0334,Halli Mala konatihi asha disat nahee ani sagla nirarthak vatate.,severe,28,roman_mr
+user_0352,Khar sangayche tar Halli mla thoda udaas ani thaklyasarkhe vatate. Kahi divasanpasun kashat mann lagat nahee. Ka sangtoy mahit nahi.,mild,18,roman_mr
+user_0000,mujhko hamesha anxiety aur akelapan feel hota hai. Ghar aur job dono sambhalna mushkil hai. Bas yahi likhna tha.,moderate,42,hinglish
+user_0323,Khar sangayche tar Aaj mi khup khush aaheee ani mla chhan vatattt aahey. Mitranbarobar vel ghalvun mala bara vatla.,none,32,roman_mr
+user_0440,Aajkal thoda low aur tired feel hota hain. Ghar mein comparison hota rehta hai.,mild,13,hinglish
+user_0092,Halli Sagla vyavasthit chalu ahe ani mla shant zop lagte. Mitranbarobarrr vel ghalvun mla bara vatla. Hech lihaycha hota.,none,23,roman_mr
+user_0241,Halli Mitranbarobar vel ghalvun mla bara vatla. Ka sangtoy mahit nhi.,none,43,roman_mr
+user_0184,Aata kashat maja vatat nahi ani mi khoop thaklo aahey. mla bahutek divas udaas vatate aani zop yet nahin. Hech lihaycha hota.,moderate,30,roman_mr
+user_0349,"Sachhh bolun toh mujhey koi hope nahin dikhti, sab kuchhh bekar lagta hai. Main ab handle nhi kar pa raha aur khud ko bekar samajhta hoon. Internship ka stressss hain. Bas yahi likhna tha.",severe,18,hinglish
+user_0241,Halli Aaj mi khoop khushhh aahe ani mla chhan vatattt aahey. Mitranbarobar vel ghalvun mla bara vatla. Ka sangtoy mahit nahee.,none,43,roman_mr
+user_0499,Khar sangayche tar Aaj mi khoop khush ahe aani mala chhan vatat aahey. Ka sangtoy mahit nai.,none,58,roman_mr
+user_0349,"Sach bolun toh Friends ke saath time spend kiya, mujhko accha lag raha hain. Pata nahin kyun share kar raha hoon.",none,18,hinglish
+user_0479,Sach bolun toh Kuchhh din se kisi cheez mein mann nahi lag raha. Pata nahee kyun share kar raha hoon.,mild,19,hinglish
+user_0200,Khar sangayche tar Sagla vyavasthit chaluuu aahe aani mla shant jhop lagte.,none,41,roman_mr
+user_0136,Sach bolun toh Kuch din se kisi cheez mein mann nahin lag raha. Internship ka stressss hain. Bas yahi likhna tha...,mild,25,hinglish
+user_0032,Aaj main bahut khush hoon aur sab kuchh theekkk chal raha hain.,none,30,hinglish
+user_0137,Kuch din se kisi cheez mein mann nhi lag raha. Aajkal thoda low aur tired feel hota hai... Bas yahi likhna tha.,mild,35,hinglish
+user_0266,Khar sangayche tar Aaj mi khup khush aahe ani mla chhannn vatat aahe. Sagla vyavasthittt chalu aahey aani mala shant jhop lagte. Ka sangtoy mahit nahi.,none,40,roman_mr
+user_0434,"Sach bolun toh mujhey koi hope nahi dikhti, sab kucch bekar lagta hain. Pata nahi kyun share kar raha hoon.",severe,45,hinglish
+user_0296,"Honestly, Friends ke saath time spend kiya,,, muje accha lag raha hain. Aaj main bhot khush hoon aur sab kuchh theek chal raha hain. Exams ka pressure bohot hain. Pata nahin kyun share kar raha hoon.",mild,14,hinglish
+user_0215,Sach bolun toh Sab kuch accha hain aur neend bhi poori hoti hain. Bas yahi likhna tha.,none,22,hinglish
+user_0378,Sach bolun toh muje hamesha anxiety aur akelapan feel hota hai. Mujhe zyada tar din sad lagta hai aur neend nahi aati.,moderate,25,hinglish
+user_0147,"Honestly, Aaj main bhot khush hoon aur sab kuch theek chal raha hain. Internship ka stress hain.",none,24,hinglish
+user_0365,Khar sangayche tar Sagla vyavasthit chalu aahe ani mla shant jhop lagte. Ka sangtoy mahit nahi.,none,63,roman_mr
+user_0557,"Mujhe koi hope nhi dikhti, sab kuch bekar lagtaaa hai... Main ab handle nahi kar pa raha aur khud ko bekar samajhta hoon. Pata nahi kyun share kar raha hoon.",severe,17,hinglish
+user_0311,Sach bolun toh Aajkal thoda low aur tired feel hota hai. Is week muje kuch karne ka mann nahi hain. Bas yahi likhna tha.,none,42,hinglish
+user_0429,"Sach bolun toh muje zyada tar din sad lagta hain aur neend nahi aati. Ab kisi cheez mein maza nhi aata, bohot thak gaya hoon... Bas yahi likhna tha.",moderate,58,hinglish
+user_0154,Halli mla konatihi asha disat nahi ani sagla nirarthak vatate. Ka sangtoy mahit nahi...,severe,46,roman_mr
+user_0021,"Sach bolun toh Mujhmein koi energy nahee hai, kuchh bhi matter nahi karta. mujhey koi hope nahee dikhti, sab kuch bekar lagta hain.",severe,26,hinglish
+user_0028,"Sach bolun toh Friends ke saath time spend kiya, mujhko accha lag raha hain. Sab kuch accha hain aur nind bhi poori hoti hain. College aur placement ki tension hain.",none,20,hinglish
+user_0161,Aaj mi khoop khush aahe aani mla chhan vatattt aahe. Sagla vyavasthit chalu ahe aani mla shant zop lagte. Ka sangtoy mahit nahin.,none,17,roman_mr
+user_0167,Kharrr sangayche tar mla konatihiii asha disat nahi aani sagla nirarthak vatate. Majhyat takat nhi ani kahich mahattvache vatat nahin. Ka sangtoy mahit nai.,moderate,19,roman_mr
+user_0224,"Sach bolun toh Friends ke saath time spend kiya, mujhey accha lag raha hai. Bas yahi likhnaaa tha.",none,14,hinglish
+user_0008,Halli Ya athvadyat mla kahi karnyachi ichha nahi. Ka sangtoy mahit nahin.,mild,43,roman_mr
+user_0170,"Honestly, Is week mujhe kuchh karne ka mann nahin hain. Bas yahi likhna tha.",mild,45,hinglish
+user_0161,Halli Mi aata sahan karu shakat nahi aani swatahla nirupayogi samajto. Majhyat takat nahi aani kahich mahattvache vatat nhi.,severe,17,roman_mr
+user_0557,"Honestly, Sab kuchh accha hai aur neend bhi poori hoti hain. Exams ka pressure bahot hain. Bas yahi likhna tha.",none,17,hinglish
+user_0266,Halli Mitranbarobar vel ghalvun mla bara vatla. Sagla vyavasthit chaluuu aaheee aani mla shant zop lagte. Hech lihaycha hota.,none,40,roman_mr
+user_0476,"Sach bolun toh Mujhe koi hope nai dikhti, sab kuch bekar lagta hai. Mujhmein koi energy nahee hai, kucch bhi matter nahi karta. Job bahuttt demanding hai. Pataaa nhi kyun share kar raha hoon.",severe,35,hinglish
+user_0046,Sach bolun toh Mujhe hamesha anxiety aur akelapan feel hota hain. mujhko zyada tar din sad lagta hain aur neend nahi aati. Health aur retirement ki chinta rehti hain. Pata nai kyun share kar raha hoon.,moderate,46,hinglish
+user_0287,Ya athvadyat mala kahi karnyachi ichha nahi. Hechhh lihaycha hota.,mild,31,roman_mr
+user_0078,"Honestly, Mujhe koi hope nahin dikhti, sab kuchh bekar lagta hain. Mujhmein koi energy nahin hain, kuch bhi matter nhi karta. Internship ka stress hain. Bas yahi likhna tha.",severe,20,hinglish
+user_0254,kuchh din se kisi cheez mein mann nahee lag raha. Pata nahi kyun share kar raha hoon.,mild,17,hinglish
+user_0248,Halli Aaj mi khoop khush ahe aani mala chhan vatat aahey. Sagla vyavasthit chalu aahey ani mla shant zop lagte. Ka sangtoy mahit nahi...,none,45,roman_mr
+user_0513,Halli Kahi divasanpasun kashat mann lagat nahi.,mild,30,roman_mr
+user_0408,Halli mla thoda udasss aani thaklyasarkhe vatate.,mild,60,roman_mr
+user_0296,"Honestly, Aajkal thoda low aur tireddd feel hota hai. Exams ka pressure bahut hain.",none,14,hinglish
+user_0448,"Ab kisi cheez mein maza nahee aata, bahut thak gaya hoon. mujhey hamesha anxiety aur akelapan feelll hota hain.",moderate,30,hinglish
+user_0249,Halli mla satat chinta aani ekatepana vatato. Ka sangtoy mahit nahee.,severe,30,roman_mr
+user_0135,Halli mla bahutek divas udas vatateee aani zop yet nhi. Aata kashat maja vatat nahi aani mi khoop thaklo ahe. Ka sangtoy mahit nahi.,moderate,13,roman_mr
+user_0121,"Mujhe koi hope nahi dikhti, sab kuchh bekar lagta hai. Office ke deadlines aur EMI ka stress hain.",severe,27,hinglish
+user_0210,Kahi divasanpasun kashat mann lagattt nahee. Ka sangtoy mahit nahi.,mild,22,roman_mr
+user_0557,Is week mujhe kucch karne ka mann nai hai. Ghar mein comparison hota rehta hain. Bas yahi likhna tha.,mild,17,hinglish
+user_0440,"Ab kisi cheez mein maza nahin aata, bahut thak gaya hoon. Bas yahi likhna tha.",severe,13,hinglish
+user_0506,Halli Halli mla thoda udas aani thaklyasarkhe vatate. Kahi divasanpasun kashat mann lagat nahin. Hech lihaycha hota.,mild,45,roman_mr
+user_0073,muje hamesha anxiety aur akelapan feel hota hai. Pata nahi kyun share kar raha hoon.,moderate,25,hinglish
+user_0557,"Honestly, Mujhmein koi energy nahee hai,,, kucch bhi matterrr nahi karta. Exams ka pressure bahut hai. Pata nhi kyun share kar raha hoon.",severe,17,hinglish
+user_0020,"mujhko zyada tar din sad lagta hain aur nind nai aati. Ab kisi cheez mein maza nahi aata, bohot thak gaya hoon. College aur placement ki tension hain.",moderate,24,hinglish
+user_0361,Khar sangayche tar Sagla vyavasthit chalu aahe aani mla shant jhop lagte. Mitranbarobarrr vel ghalvun mla bara vatla. Hech lihaycha hota.,none,28,roman_mr
+user_0451,Khar sangayche tar Ya athvadyat mala kahi karnyachi ichha nahin. Halli mla thoda udas ani thaklyasarkhe vatate. Hech lihaycha hota.,mild,31,roman_mr
+user_0395,"Sach bolun toh Aaj main bahut khush hoon aur sab kuch theek chal raha hain. Friends ke saath time spend kiya, mujhey accha lag raha hain. College aur placement ki tension hai. Pata nahee kyun share kar raha hoon.",none,20,hinglish
+user_0268,Khar sangayche tar Halli mala thoda udas ani thaklyasarkhe vatate. Kahi divasanpasun kashat mann lagat nai.,mild,18,roman_mr
+user_0255,"Aaj main bohot khush hoon aur sab kuch theek chal raha hai. Friendsss ke saath timeee spend kiya, mujhko acchaaa lag raha hai. Pata nahee kyun share kar raha hoon.",none,42,hinglish
+user_0224,"Sach bolun toh Friends ke saath time spend kiya, mujhe accha lag raha hai.",none,14,hinglish
+user_0365,Halli Aaj mi khoop khush aahe aani malaaa chhan vatat ahe. Sagla vyavasthit chalu aahe ani mla shant zop lagte.,none,63,roman_mr
+user_0339,Khar sangayche tar Aata kashat maja vatat nhi aani mi khup thaklo aahey.,moderate,21,roman_mr
+user_0154,Khar sangayche tar Mala satat chinta ani ekatepana vatato. Mala bahutek divas udaas vatate aani jhop yet nahi...,moderate,46,roman_mr
+user_0580,Sab kuch accha hain aur nend bhi poori hoti hain. Loan aur bachchon ki padhai ki chinta hai.,none,44,hinglish
+user_0564,Is week mujhko kuch karne ka mannnn nahi hai. Kuch din se kisi cheez mein mann nahi lag raha. Loan aur bachchon ki padhai ki chinta hain. Bas yahi likhna tha.,mild,37,hinglish
+user_0041,"Friendsss ke saath time spend kiya, mujhe accha lag raha hain. Bachche door rehte hain. Pata nahi kyun share kar raha hoon.",none,59,hinglish
+user_0397,Khar sangaycheee tar Mala konatihi asha disat nahi aani sagla nirarthak vatate. Mi aata sahan karu shakat nai aani swatahla nirupayogi samajto.,severe,24,roman_mr
+user_0352,Ya athvadyat mla kahi karnyachi ichha nahee. Kahi divasanpasun kashat mann lagat nahi.,mild,18,roman_mr
+user_0282,"Honestly, Aaj main bahut khush hoon aur sab kucch theekkk chal raha hain.",none,28,hinglish
+user_0093,Halli Majhyat takat nahi ani kahich mahattvache vatat nahi.,severe,30,roman_mr
+user_0458,"Mujhmein koi energy nahee hai, kucch bhi matter nahee karta. Main ab handle nahi kar pa raha aur khud ko bekar samajhta hoon. Pata nhi kyun share kar raha hoon.",severe,19,hinglish
+user_0553,Kharrr sangayche tar Mitranbarobar vel ghalvun mala bara vatla. Hech lihaycha hota.,none,46,roman_mr
+user_0557,"Honestly, kucch din se kisi cheez mein mann nahee lag raha... Ghar mein comparison hota rehta hain. Bas yahi likhna tha.",mild,17,hinglish
+user_0184,mla konatihi asha disat nahi aani sagla nirarthak vatate. Majhyat takat nahee aani kahich mahattvache vatattt nai. Ka sangtoy mahit nahi.,severe,30,roman_mr
+user_0423,"Friends ke saath time spend kiya, mujhey accha lag raha hain. Aaj main bahot khush hoon aur sab kuchh theek chal raha hai. Office ke deadlines aur EMI ka stress hai... Pata nahi kyun share kar raha hoon.",none,35,hinglish
+user_0392,Aajkal thoda low aur tired feel hota hai.,mild,48,hinglish
+user_0056,Mala satat chinta ani ekatepana vatato.,moderate,32,roman_mr
+user_0241,Khar sangayche tar Aaj mi khoop khush aahey ani mla chhan vatattt aahe. Sagla vyavasthit chalu aahey aani mla shant jhop lagte. Hech lihaychaaa hota.,none,43,roman_mr
+user_0563,Sach bolun toh Is week mujhe kuch karne ka mann nai hain. kucch din se kisi cheez mein mann nai lag raha.,mild,65,hinglish
+user_0184,Ya athvadyat mla kahi karnyachi ichha nahin. Ka sangtoy mahit nahi.,mild,30,roman_mr
+user_0320,"Honestly, Sab kuch accha hai aur neend bhi poori hoti hain. Aaj main bahut khush hoon aur sab kucch theek chal raha hain. Ghar aur job dono sambhalna mushkil hai. Pata nahi kyun share kar raha hoon.",none,44,hinglish
+user_0352,Kharrr sangayche tar Halli mala thoda udas ani thaklyasarkhe vatate. Kahi divasanpasunnn kashat mann lagat nahi. Hech lihaycha hota.,mild,18,roman_mr
+user_0073,"Ab kisi cheez mein maza nhi aata, bohot thakkk gaya hoon. muje hamesha anxiety aur akelapan feel hota hai. Internship ka stress hain. Bas yahi likhna tha.",moderate,25,hinglish
+user_0480,"Honestly, Friends ke saath time spend kiya, mujhe accha lag raha hai. Bas yahi likhna tha.",none,33,hinglish
+user_0434,"Honestly, Kuch din se kisi cheez mein mannnn nai lag raha. Pata nai kyun share kar raha hoon.",mild,45,hinglish
+user_0521,kucch din se kisi cheez mein mann nai lag raha. Aajkal thoda low aur tired feel hota hain. College aur placement ki tension hai. Bas yahi likhna tha.,mild,22,hinglish
+user_0129,"Honestly, Aajkal thoda low aur tired feelll hota hai. kuchh din se kisi cheez mein mann nahi lag raha. Pata nai kyun share kar raha hoon.",mild,30,hinglish
+user_0296,"Honestly,,, Ab kisiii cheez mein maza nahee aata, bahot thak gaya hoon. Exams ka pressure bahut hain. Pata nhi kyun share kar raha hoon.",moderate,14,hinglish
+user_0352,Kahi divasanpasun kashat mann lagat nai. Hech lihaycha hota.,mild,18,roman_mr
+user_0002,"Mujhe koi hope nahi dikhti, sab kuch bekar lagta hai. Bachche door rehte hain. Pata nai kyun share kar raha hoon.",severe,60,hinglish
+user_0453,Khar sangaycheee tar Ya athvadyat mla kahi karnyachi ichha nahee. Hech lihaycha hota.,mild,41,roman_mr
+user_0523,Khar sangayche tar Ya athvadyat mla kahi karnyachi ichha nahi. Ka sangtoyyy mahit nahin.,mild,15,roman_mr
+user_0261,Sach bolun toh Is week mujhko kucch karne ka mann nahi hain. Internship ka stress hain. Bas yahi likhna tha.,mild,25,hinglish
+user_0370,"Sach bolun toh Sab kuch accha hai aur neend bhi poori hoti hai. Friends ke saath time spend kiya, mujhey accha lag raha hain.",none,21,hinglish
+user_0241,Halli Sagla vyavasthit chalu aahey ani mla shant zop lagte. Aaj mi khoop khush ahe aani mla chhan vatat aahe... Ka sangtoy mahit nahi.,none,43,roman_mr
+user_0344,Sach bolun toh Aaj main bohot khush hoon aur sab kuchh theek chal raha hai.,mild,42,hinglish
+user_0093,Halli Mala bahutek divas udaas vatate aani zop yet nhi. mla satat chinta aani ekatepana vatato. Hech lihaycha hota.,moderate,30,roman_mr
+user_0499,Kahi divasanpasunnn kashat mann lagat nai. Ya athvadyat mla kahi karnyachi ichha nahi. Ka sangtoy mahit nahi.,mild,58,roman_mr
+user_0180,"Honestly, Aaj main bahot khush hoon aur sab kuch theek chal raha hain. Bas yahi likhnaaa tha.",none,14,hinglish
+user_0440,"Honestly, Friends ke saath time spend kiya, mujhe acchaaa lag raha hain. Exams ka pressure bohot hain. Pata nai kyunnn share kar raha hoon.",mild,13,hinglish
+user_0171,Sach bolun toh mujhko hamesha anxiety aur akelapan feel hota hai. Mujhe zyada tar din sad lagta hain aur nind nahi aati. Pata nahi kyun share kar raha hoon.,mild,14,hinglish
+user_0477,Sach bolun toh Aajkal thoda low aur tired feel hota hai. Pata nahi kyun share kar raha hoon.,mild,53,hinglish
+user_0533,Khar sangayche tar Aaj mi khoop khush ahe aani mala chhan vatat ahe. Mitranbarobar vel ghalvun malaaa bara vatla. Ka sangtoy mahit nai.,none,55,roman_mr
+user_0567,Mitranbarobar vel ghalvun mala bara vatla.,none,56,roman_mr
+user_0031,"Sach bolun toh muje koi hope nahi dikhti, sab kuch bekar lagta hain. Main ab handle nahi kar pa raha aur khud ko bekar samajhta hoon... Officeee ke deadlines aur EMI ka stress hain. Bas yahi likhna tha.",severe,28,hinglish
+user_0067,Halli Aata kashat maja vatat nahi ani mi khoop thaklo aahey. Hech lihaycha hota.,moderate,24,roman_mr
+user_0251,Is week muje kucch karne ka mann nahin hain. Aajkal thoda low aur tired feel hota hain. Office ke deadlines aur EMI ka stress hain. Pata nahee kyun share kar raha hoon.,mild,33,hinglish
+user_0277,Khar sangayche tar Kahi divasanpasun kashat mann lagat nahi. Hech lihaycha hota.,mild,25,roman_mr
+user_0459,Aaj main bohot khush hoon aur sab kuch theek chal raha hain. Office ke deadlines aur EMI ka stress hain.,none,33,hinglish
+user_0523,Khar sangayche tar Halli mala thoda udas aani thaklyasarkhe vatate. Ya athvadyat mla kahi karnyachi ichha nahi.,none,15,roman_mr
+user_0448,"Sach bolun toh Sab kuchh accha hain aur nend bhi pooriii hoti hain. Friends ke saath time spend kiya,,, mujhe accha lag raha hai. Bas yahi likhna tha.",mild,30,hinglish
+user_0453,Sagla vyavasthit chalu ahe aani mala shant jhop lagte. Mitranbarobar vel ghalvun mla bara vatla. Ka sangtoy mahit nai.,none,41,roman_mr
+user_0357,Aaj main bahut khush hoon aur sab kucch theek chal raha hai. Sab kuchh accha hain aur nend bhi pooriii hoti hain. Exams ka pressure bahot hain. Bas yahi likhna tha.,none,17,hinglish
+user_0357,Sach bolun toh mujhey zyada tar din sad lagta hain aur nend nahi aati.,moderate,17,hinglish
+user_0333,"Sab kuch accha hain aur neend bhi poori hoti hai. Friends ke saath time spend kiya, mujhko accha lag raha hain. Bas yahi likhna tha.",none,41,hinglish
+user_0320,kucch din se kisi cheez mein mann nahiii lag raha. Bas yahi likhna tha.,mild,44,hinglish
+user_0299,"Honestly, Mujhe zyada tar din sad lagtaaa hain aur nind nahee aati. Ab kisi cheez mein maza nhi aata, bahuttt thak gaya hoon.",mild,39,hinglish
+user_0118,"Honestly, Friends ke saath time spend kiya, mujhey accha lag raha hai. Sab kuch accha hain aur neend bhi poori hoti hain. Bachche door rehte hain. Pata nahi kyun share kar raha hoon.",none,50,hinglish
+user_0352,Kahi divasanpasun kashat mann lagat nai. Ya athvadyat mala kahi karnyachi ichha nahin.,mild,18,roman_mr
+user_0453,Aaj mi khoop khush ahe aani mla chhannn vatat ahe. Sagla vyavasthit chalu aahey aani mala shant jhop lagte.,none,41,roman_mr
+user_0121,"Sach bolun toh Ab kisi cheez mein maza nahi aata,,, bahot thak gayaaa hoon. Job bhot demandinggg hain. Bas yahi likhna tha.",mild,27,hinglish
+user_0502,"Honestly, Sab kuchh accha hai aur nind bhi poori hoti hain. Bas yahi likhna tha.",none,65,hinglish
+user_0342,"Honestly, Aajkal thoda low aur tired feel hota hain. Kuch din se kisi cheez mein mann nahin lag raha. Office ke deadlines aur EMI ka stress hain.",mild,34,hinglish
+user_0349,"Main ab handle nahiii kar pa raha aur khud ko bekar samajhta hoon. muje koi hope nahee dikhti, sab kuchhh bekar lagta hain. Bas yahi likhna tha.",moderate,18,hinglish
+user_0432,Kharrr sangayche tar Aata kashat maja vatat nahi aani mi khoop thaklo aahe. Mala bahutek divas udaas vatate aani zop yet nahi.,moderate,21,roman_mr
+user_0479,"Honestly, Aajkal thoda low aur tired feel hota hain. Is week mujhko kuch karne ka mann nahiii hain. College aur placement ki tensionnn hain. Bas yahi likhna tha.",mild,19,hinglish
+user_0523,Khar sangayche tar Mitranbarobarrr vel ghalvun mala baraaa vatla. Aaj mi khup khush aahe ani mla chhan vatat aahe. Hech lihaycha hota.,none,15,roman_mr
+user_0021,Is weekkk muje kuch karne ka mann nhi hai. Pata nahin kyun share kar raha hoon...,mild,26,hinglish
+user_0433,Halli Ya athvadyat mla kahi karnyachi ichha nahi. Hech lihaycha hota...,none,45,roman_mr
+user_0224,Is week muje kuch karne ka mann nahi hai. Aajkal thoda low aur tireddd feel hota hain. Bas yahi likhna tha.,mild,14,hinglish
+user_0480,Sach bolunnn toh Aaj main bahot khush hoon aur sab kucch theek chal raha hain. Sab kucch accha hain aur nend bhi pooriii hoti hain. Office ke deadlines aur EMI ka stress hai. Pata nahi kyun share kar raha hoon.,none,33,hinglish
+user_0575,Sagla vyavasthit chalu ahe aani mla shant jhop lagte. Hech lihaycha hota...,none,50,roman_mr
+user_0553,Khar sangayche tar mla bahutek divas udaas vatate ani jhop yet nai. Ka sangtoy mahit nhi.,mild,46,roman_mr
+user_0299,Sach bolun toh Is week mujhe kuch karne ka mann nhi hain. Bas yahi likhna tha.,mild,39,hinglish
+user_0463,kucch din se kisi cheez mein mann nahi lag raha. Aajkal thoda low aur tired feel hota hai. Office ke deadlines aur EMI ka stress hai.,moderate,26,hinglish
+user_0031,"Sach bolun toh Mujhmeinnn koi energy nahee hai, kuch bhi matter nai karta. Main ab handle nahi kar pa raha aur khud ko bekar samajhta hoon. Job bhot demanding hai. Bas yahi likhna tha.",severe,28,hinglish
+user_0319,Aajkal thoda low aur tired feelll hota hai. Is week mujhey kuch karne ka mann nahi hai.,mild,36,hinglish
+user_0251,"Honestly, Aajkal thoda low aur tired feel hota hai. Pata nahi kyun share kar raha hoon.",none,33,hinglish
+user_0136,"Honestly, Aaj main bahut khush hoonnn aur sab kuch theek chal raha hain. Pata nahi kyun share kar raha hoon.",none,25,hinglish
+user_0210,Ya athvadyat mla kahi karnyachi ichha nahi. Halli mala thoda udaas aani thaklyasarkhe vatate. Ka sangtoy mahit nhi.,mild,22,roman_mr
+user_0152,Aajkal thoda low aur tired feel hota hai. kucch din se kisi cheez mein mann nahee lag raha. Pataaa nahi kyun share kar rahaaa hoon.,mild,35,hinglish
+user_0378,Mujhe hamesha anxiety aur akelapan feel hota hai. Bas yahi likhna tha.,moderate,25,hinglish
+user_0197,Aajkal thoda low aur tired feel hota hain. College aur placement ki tension hain. Pata nai kyun share kar raha hoon.,mild,23,hinglish
+user_0000,"Honestly, Friends ke saath time spend kiya, muje accha lag raha hai. Loan aur bachchon ki padhai ki chinta hain. Bas yahi likhna tha.",none,42,hinglish
+user_0266,Halli Aaj mi khup khush aahey ani mla chhan vatat aahe... Hech lihaycha hota...,none,40,roman_mr
+user_0523,Kharrr sangayche tar Aata kashat majaaa vatat nahi aani mi khoop thaklo ahe. mla satat chinta ani ekatepana vatato. Hech lihaycha hota.,moderate,15,roman_mr
+user_0448,Sach bolun toh Is week mujhe kuch karne ka mann nai hain.,mild,30,hinglish
+user_0392,Sab kucch accha hai aur nend bhi poori hotiii hain. Bachche door rehte hain. Pata nai kyun shareee kar raha hoon.,none,48,hinglish
+user_0395,Sach bolunnn toh Mujhe hamesha anxiety aur akelapan feel hota hain. College aur placement ki tension hain.,moderate,20,hinglish
+user_0334,Mala bahutek divas udas vatate aani jhop yet nai. Ka sangtoy mahittt nhi.,moderate,28,roman_mr
+user_0480,"Honestly, Sab kuchh acchaaa hai aur nend bhi poori hoti hain. Aaj main bahut khush hoon aur sab kucch theekkk chal raha hain. Job bahut demanding hain. Bas yahi likhna tha.",none,33,hinglish
+user_0433,Khar sangayche tar Mitranbarobar vel ghalvun mla bara vatla. Sagla vyavasthit chalu aahey aani mla shant jhop lagte. Ka sangtoy mahit nahin.,none,45,roman_mr
+user_0116,Khar sangayche tar Mala bahutek divas udaas vatate ani jhop yet nahee.,mild,37,roman_mr
+user_0520,Aaj main bhot khush hoon aur sab kucch theek chal raha hai. Bas yahi likhna tha.,none,24,hinglish
+user_0200,Khar sangayche tar Ya athvadyat mla kahi karnyachi ichha nai.,mild,41,roman_mr
+user_0241,Mala satat chinta aani ekatepanaaa vatato. Hech lihaychaaa hota.,moderate,43,roman_mr
+user_0186,Khar sangayche tar Sagla vyavasthit chalu ahe ani mla shanttt zop lagte. Mitranbarobar vel ghalvun mla bara vatla. Ka sangtoy mahit nahi.,none,38,roman_mr
+user_0463,"Honestly, Is week muje kuch karne ka mann nahi hain. kucch din se kisi cheez mein mann nahin lag raha.",mild,26,hinglish
+user_0118,"Honestly, mujhko hamesha anxiety aur akelapan feel hota hai. Bachche door rehte hain. Bas yahi likhna tha.",moderate,50,hinglish
+user_0541,mujhko zyada tar din sad lagta hai aur neend nahi aati. Internship ka stress hain.,severe,24,hinglish
+user_0210,Khar sangayche tar Mi aata sahan karu shakat nahee aani swatahla nirupayogi samajto. Ka sangtoy mahit nahee.,severe,22,roman_mr
+user_0137,Mujhe hamesha anxiety aur akelapan feel hota hai. Office ke deadlines aur EMI ka stress hai. Bas yahi likhna tha.,mild,35,hinglish
+user_0429,Sach bolun toh kuchh din se kisi cheez mein mann nahee lag raha.,mild,58,hinglish
+user_0488,"Honestly, Ab kisi cheez meinnn maza nahi aata, bhot thak gaya hoon. Ghar mein comparison hota rehta hai. Bas yahi likhna tha.",mild,13,hinglish
+user_0063,"mujhey hamesha anxiety aur akelapan feel hota hain. Ab kisi cheez mein maza nahin aata, bhot thak gaya hoon.",moderate,38,hinglish
+user_0364,Halli mala thoda udas ani thaklyasarkhe vatate... Ka sangtoy mahit nai.,mild,39,roman_mr
+user_0039,Halli Ya athvadyat mala kahi karnyachi ichha nahi. Halli mla thoda udas aani thaklyasarkhe vatate. Ka sangtoy mahit nahi.,moderate,14,roman_mr
+user_0163,Khar sangayche tar Halli mla thoda udaas aani thaklyasarkhe vatate. Ya athvadyat mla kahi karnyachi ichha nahin. Hech lihaycha hota.,mild,14,roman_mr
+user_0092,Aaj mi khoop khush aahe ani mla chhan vatat ahe. Ka sangtoy mahit nahee.,none,23,roman_mr
+user_0233,mla satattt chinta ani ekatepana vatato. Mala bahutek divas udaas vatate ani jhop yet nahee.,severe,22,roman_mr
+user_0438,Sach bolun toh Mujhe zyada tar din sad lagta hai aur nind nahin aati. Internship ka stress hai. Pata nahi kyun share kar raha hoon.,moderate,20,hinglish
+user_0385,Halli Ya athvadyat mla kahi karnyachi ichha nahi. Kahi divasanpasun kashattt mann lagat nahin. Ka sangtoy mahittt nahin.,none,21,roman_mr
+user_0180,Sach bolun toh Aaj main bahot khushhh hoon aur sab kucch theek chal raha hain. Ghar mein comparisonnn hota rehta hain.,none,14,hinglish
+user_0135,Mala konatihi asha disat nai aani sagla nirarthak vatate. Ka sangtoy mahit nahi.,severe,13,roman_mr
+user_0553,Khar sangayche tar Aaj mi khoop khush ahe ani mala chhan vatat aahe. Sagla vyavasthit chalu aahe ani mla shant zop lagte.,none,46,roman_mr
+user_0184,Khar sangayche tar Kahi divasanpasun kashat mann lagat nahi. Ya athvadyat mla kahi karnyachi ichha nhi. Hech lihaycha hota.,mild,30,roman_mr
+user_0020,"Sach bolun toh Friends ke saathhh time spend kiya, mujhey accha lag raha hai. Aaj main bahut khush hoon aur sab kuchh theek challl raha hai. College aur placement ki tension hai. Bas yahi likhna tha.",none,24,hinglish
+user_0200,Halli Halli mala thoda udaas aani thaklyasarkhe vatate. Ya athvadyat mala kahi karnyachi ichhaaa nahee. Hech lihaycha hota...,mild,41,roman_mr
+user_0479,Sach bolun toh Aaj main bhot khush hoon aur sab kuch theek chal raha hain. Sab kuch accha hain aur nind bhi poori hoti hain. Bas yahi likhna tha.,mild,19,hinglish
+user_0320,"Honestly, Mujhe zyada tar din sad lagta hai aur neend nahee aati. Loan aur bachchon ki padhai ki chinta hain.",moderate,44,hinglish
+user_0284,"Honestly, Friends ke saath time spend kiya,,, mujhe accha lag raha hai. Bachche door rehte hain.",none,57,hinglish
+user_0021,"Honestly, Main ab handle nai kar pa raha aur khud ko bekar samajhta hoon. muje koi hope nahi dikhti, sab kucch bekar lagta hain. Pata nahin kyun share kar raha hoon.",moderate,26,hinglish
+user_0434,Sab kuchh accha hai aur nend bhi poori hoti hain. Ghar aur job dono sambhalna mushkil hai. Bas yahi likhna tha.,none,45,hinglish
+user_0340,"Honestly, Mujhe hamesha anxiety aur akelapan feel hota hain. Internship ka stress hain.",moderate,23,hinglish
+user_0305,Khar sangayche tar Aata kashat maja vatat nahi aani mi khup thaklo aahe. mla satat chinta ani ekatepana vatato. Ka sangtoyyy mahit nahi.,moderate,19,roman_mr
+user_0352,Khar sangayche tar Aaj mi khoop khush aahe aani mla chhan vatat ahe. Hech lihaycha hota.,none,18,roman_mr
+user_0361,Halli Kahi divasanpasun kashat mann lagat nahi. Ya athvadyat mala kahi karnyachi ichha nai.,mild,28,roman_mr
+user_0155,"Honestly, Aaj main bhot khush hoon aur sab kucch theek chal raha hai. Friends ke saath time spend kiya, mujhe accha lag raha hai. Ghar mein comparison hota rehta hain. Pata nahi kyun share kar rahaaa hoon.",none,16,hinglish
+user_0129,Sach bolun toh mujhey hamesha anxiety aur akelapan feel hota hain. Bas yahi likhna tha.,moderate,30,hinglish
+user_0323,Kahi divasanpasun kashat mann lagat nahi. Halli mala thodaaa udaas ani thaklyasarkhe vatate.,mild,32,roman_mr
+user_0323,Halli Sagla vyavasthit chalu aahey aani mala shant jhop lagte... Aaj mi khup khush aaheee aani mla chhan vatat ahe.,none,32,roman_mr
+user_0134,Sach bolun toh muje hamesha anxiety aur akelapan feel hota hain. Job bhot demanding hai. Pata nahi kyun share kar rahaaa hoon.,moderate,32,hinglish
+user_0451,Halli Mi aata sahan karuuu shakat nahi aani swatahla nirupayogi samajto. Hech lihaycha hota.,severe,31,roman_mr
+user_0365,Ya athvadyat mla kahi karnyachi ichha nhi. Halli malaaa thoda udas aani thaklyasarkhe vatate. Hech lihaycha hota.,mild,63,roman_mr
+user_0166,"Honestly, Kuch din se kisi cheez mein mann nahi lag raha. Collegeee aur placement ki tension hai.",mild,21,hinglish
+user_0523,Halli Sagla vyavasthit chalu aahey aani mla shant jhop lagte.,none,15,roman_mr
+user_0266,Khar sangayche tar Kahi divasanpasun kashat mann lagat nahee. Ka sangtoy mahit nahi.,mild,40,roman_mr
+user_0016,"Honestly, Friends ke saath time spend kiya, muje accha lag raha hain. Aaj main bohot khush hoon aur sab kuchh theek chal raha hain. Office ke deadlines aur EMI ka stress hai. Bas yahi likhna tha.",none,27,hinglish
+user_0459,kucch din se kisi cheez mein mann nahin lag raha. Aajkal thoda low aur tired feel hota hai. Job bahut demanding hai.,mild,33,hinglish
+user_0451,Khar sangayche tar Halli mla thoda udas aani thaklyasarkhe vatate. Ka sangtoy mahit nahi.,mild,31,roman_mr
+user_0527,"Honestly, Mujhmein koi energyyy nai hai, kuchh bhi matter nhi karta.",severe,41,hinglish
+user_0313,Kharrr sangayche tar Mitranbarobar vel ghalvun mla baraaa vatla. Ka sangtoy mahit nahi.,none,35,roman_mr
+user_0277,Halli Ya athvadyattt mla kahi karnyachi ichha nahee.,moderate,25,roman_mr
+user_0385,Mitranbarobar vel ghalvun mala bara vatla. Aaj mi khup khush ahe ani mla chhan vatat aahe. Hech lihaycha hota.,none,21,roman_mr
+user_0313,Mitranbarobar vel ghalvun mla bara vatla. Aaj mi khup khush aahe ani mala chhan vatat ahe. Ka sangtoy mahit nahee.,none,35,roman_mr
+user_0352,Khar sangayche tar Kahi divasanpasun kashat mann lagat nahi. Halli mala thoda udaas aani thaklyasarkhe vatate.,moderate,18,roman_mr
+user_0373,"Honestly, Aajkal thoda low aur tired feel hota hain.",mild,39,hinglish
+user_0396,Is week mujhe kucch karne ka mann nhi hain. Office ke deadlines aur EMI ka stress hain.,moderate,26,hinglish
+user_0274,Halli Sagla vyavasthit chalu aahey aani mla shant jhop lagte. Hech lihaycha hota.,mild,21,roman_mr
+user_0558,Halli Aata kashat maja vatat nahee ani mi khup thaklo ahe. mla satat chinta ani ekatepana vatato. Hech lihaycha hota.,moderate,23,roman_mr
+user_0274,Halli Sagla vyavasthit chalu aahe aani mla shant zop lagte... Mitranbarobar vel ghalvun mala bara vatla. Ka sangtoy mahit nahin.,none,21,roman_mr
+user_0553,Sagla vyavasthit chalu aahey aani mala shant zop lagte. Aaj mi khoop khush aahey aani mala chhan vatat aahe.,none,46,roman_mr
+user_0071,Sach bolun toh Aaj main bhot khush hoon aur sab kuch theek chal raha hain. Health aur retirement ki chinta rehti hain.,none,54,hinglish
+user_0240,Mitranbarobar vel ghalvun mla bara vatla. Ka sangtoy mahittt nahee.,none,35,roman_mr
+user_0197,"Friends ke saath timeee spend kiya, muje accha lag raha hain. College aur placementtt ki tension hain. Bas yahi likhna tha.",none,23,hinglish
+user_0370,"Mujhe koi hope nahee dikhti, sab kuch bekar lagta hain. Internship ka stress hai.",severe,21,hinglish
+user_0521,Sab kuch accha hain aur nind bhi poori hoti hain. Bas yahi likhna tha...,mild,22,hinglish
+user_0373,"Sach bolun toh Aaj main bahut khush hoonnn aur sab kucch theekkk chal raha hain. Friends ke saath time spend kiya, mujhe accha lag raha hain. Pata nahee kyun share kar raha hoon.",none,39,hinglish
+user_0558,Halli Majhyat takat nahin aani kahich mahattvache vatat nai. Mi aataaa sahan karu shakat nahi aani swatahla nirupayogi samajto. Hech lihaycha hota.,severe,23,roman_mr
+user_0166,"Honestly, Mujhmein koi energy nahin hain, kuch bhi matter nhi karta. Main ab handle nahi kar pa raha aur khud ko bekar samajhta hoon. Internship ka stress hain. Bas yahi likhna tha.",severe,21,hinglish
+user_0284,Sach bolun toh Aajkal thoda low aur tired feel hota hai... Bas yahi likhna tha.,mild,57,hinglish
+user_0346,"Honestly, Aajkal thoda low aur tired feel hota hain. Is week mujhe kuchh karne ka mann nahin hai. Health aur retirement ki chinta rehti hai.",mild,59,hinglish
+user_0093,Halliii Mitranbarobar vel ghalvun mla bara vatla. Aaj mi khoop khush aahey aani mala chhan vatat ahe. Hech lihaycha hota...,none,30,roman_mr
+user_0117,"Honestly, Aaj main bahut khush hoon aur sab kuchh theek chal raha hain. Ghar mein comparison hota rehta hai. Pata nahi kyun share kar raha hoon...",none,13,hinglish
+user_0067,Khar sangaycheee tar Kahi divasanpasun kashat mann lagat nahi. Ya athvadyat mla kahi karnyachi ichha nahin. Ka sangtoy mahit nahi.,mild,24,roman_mr
+user_0154,Aaj mi khoop khush aahe aani mla chhan vatat aahe... Mitranbarobar vel ghalvun mala bara vatla.,none,46,roman_mr
+user_0502,Is week mujhey kuchh karne ka mann nahee hain. Health aur retirement ki chinta rehti hain. Pata nahi kyun share kar raha hoon...,mild,65,hinglish
+user_0170,Sach bolun toh Aaj main bahut khush hoon aur sab kucch theek chal raha hain. Sab kuchh accha hai aur neend bhi poori hoti hain. Loan aur bachchon ki padhaiii ki chinta hain. Pata nahee kyunnn shareee kar raha hoon.,none,45,hinglish
+user_0558,Ya athvadyat mla kahi karnyachi ichha nai. Halli mala thoda udaas aani thaklyasarkhe vatate.,moderate,23,roman_mr
+user_0116,Mala satat chinta aani ekatepana vatato. Ka sangtoy mahit nhi.,mild,37,roman_mr
+user_0392,Sach bolun toh Mujhe hamesha anxiety aur akelapan feel hota hai. Bachche door rehte hain. Pata nhi kyun share kar raha hoon.,mild,48,hinglish
+user_0446,"Honestly, Ab kisi cheez mein maza nahin aata, bahut thak gaya hoon. Bas yahi likhna tha.",moderate,17,hinglish
+user_0447,"Honestly, Kuch din se kisiii cheez mein mann nahee lag raha. Internship ka stress hai. Bas yahi likhna tha.",none,19,hinglish
+user_0558,Halli Mala bahutek divasss udaas vatate aani jhop yet nahi.,moderate,23,roman_mr
+user_0520,"Honestly, kucch din se kisi cheez mein mann nai lag raha. College aur placement ki tension hain. Pata nai kyun share kar raha hoon.",mild,24,hinglish
+user_0371,"Honestly,,, Aajkal thoda low aur tired feel hota hain. Kuch din se kisi cheezzz mein mann nahee lag raha. Office ke deadlines aur EMI ka stress hain. Pata nahee kyun share kar rahaaa hoon.",mild,27,hinglish
+user_0447,"Honestly, Ab kisi cheez mein maza nahi aata, bohot thak gaya hoon. Mujhe zyada tar din sad lagta hai aur neend nahee aati. Pata nahi kyunnn share kar raha hoon.",moderate,19,hinglish
+user_0349,Sach bolun toh Aaj main bahut khush hoon aur sab kuchh theek chal raha hain. Pata nahin kyun share kar raha hoon.,none,18,hinglish
+user_0210,Aata kashat maja vatat nahi aani mi khoop thaklo aahe. mla satat chinta aani ekatepana vatato. Ka sangtoy mahittt nai.,mild,22,roman_mr
+user_0445,Halli mala thoda udaas ani thaklyasarkhe vatate. Kahi divasanpasun kashat mann lagat nahi. Hech lihaychaaa hota.,mild,54,roman_mr
+user_0105,Aaj mi khup khush aahey ani mala chhan vatat aahey. Mitranbarobar vel ghalvun mla bara vatla. Hech lihaycha hota.,none,24,roman_mr
+user_0229,"Honestly, Mujhmein koi energy nahi hai, kucch bhi matter nai karta. Main ab handle nahin kar pa raha aur khud ko bekar samajhta hoon. Loan aur bachchon ki padhai ki chinta hain. Bas yahi likhna tha.",severe,44,hinglish
+user_0370,"Friends ke saath time spend kiya, mujhe accha lag rahaaa hai. Sab kuch accha hain aur neend bhi poori hoti hain. Internship ka stress hai. Pata nahi kyun share kar raha hoon...",none,21,hinglish
+user_0346,"Honestly, Aaj main bahut khush hoon aur sab kuch theek chal raha hai. Bachche door rehte hain. Bas yahi likhna tha.",none,59,hinglish
+user_0381,Khar sangayche tar Mi aata sahan karu shakat nai aani swatahla nirupayogi samajto. Hech lihaycha hota.,severe,19,roman_mr
+user_0458,"Honestly, Mujhe hamesha anxiety aur akelapan feel hota hai. College aur placement ki tension hain.",moderate,19,hinglish
+user_0408,Kahi divasanpasun kashat mann lagat nai. Halli mla thodaaa udas aani thaklyasarkhe vatate. Ka sangtoy mahit nahi.,none,60,roman_mr
+user_0364,Khar sangaycheee tar Aata kashat maja vatat nahee aani mi khoop thaklo aahe. Hech lihaychaaa hota.,mild,39,roman_mr
+user_0118,"Honestly, Aajkal thoda low aur tired feel hota hai. Health aur retirement ki chinta rehti hain. Bas yahi likhna tha.",none,50,hinglish
+user_0039,Khar sangayche tar Mitranbarobar vel ghalvun mla bara vatla. Sagla vyavasthit chalu ahe ani mla shanttt jhop lagte. Hech lihaycha hota.,none,14,roman_mr
+user_0041,"Honestly, Is week mujhey kuchh karne ka mann nahi hai. Kuch din se kisi cheez mein mann nhi lag raha. Healthhh aur retirement ki chinta rehtiii hain. Pata nahee kyun share kar raha hoon.",mild,59,hinglish
+user_0365,Halli Mitranbarobar vel ghalvun mala bara vatla. Aaj mi khoop khush aahe ani mla chhan vatat aahe.,none,63,roman_mr
+user_0134,"Honestly, Aajkal thoda low aur tireddd feel hotaaa hai. Is week mujhko kuch karne ka mann nahi hain. Office ke deadlines aur EMI ka stress hain. Bas yahi likhna tha.",mild,32,hinglish
+user_0456,"Friends ke saath time spend kiya, mujhe accha lag raha hain. Sab kuch accha hain aur neend bhi poori hoti hain. Pata nhi kyun share kar raha hoon.",none,20,hinglish
+user_0032,"Honestly, Ab kisi cheez mein maza nahi aata, bahot thak gayaaa hoon. Office ke deadlines aur EMI ka stress hain.",moderate,30,hinglish
+user_0575,Sagla vyavasthittt chalu ahe ani mla shant zop lagte.,mild,50,roman_mr
+user_0408,Halli Halli mala thoda udas ani thaklyasarkhe vatate. Ka sangtoy mahit nai.,mild,60,roman_mr
+user_0002,Sach bolun toh Sab kucch accha hai aur nend bhi poori hoti hai. Bachche door rehte hain. Pata nai kyun share kar raha hoon.,mild,60,hinglish
+user_0474,Khar sangayche tar Sagla vyavasthit chalu aahey ani mala shant zop lagte. Mitranbarobar vel ghalvun mla bara vatla.,none,36,roman_mr
+user_0323,Khar sangayche tar Mitranbarobar vel ghalvun mla bara vatla. Sagla vyavasthit chalu aahe ani mla shant zop lagte.,none,32,roman_mr
+user_0456,Sab kuchh acchaaa hain aur neend bhi poori hoti hain. Internship ka stress hai. Bas yahiii likhna tha.,none,20,hinglish
+user_0357,"Mujhe koi hope nahi dikhti, sab kuch bekar lagta hain. Ghar mein comparison hota rehta hain. Pata nahee kyun share kar raha hoon...",severe,17,hinglish
+user_0162,Is week muje kuch karne ka mann nahi hain. Health aur retirementtt ki chinta rehti hain.,mild,59,hinglish
+user_0202,Sach bolun toh Aajkal thoda low aur tired feel hota hain. Is week mujhey kucch karne ka mann nai hain. Loan aur bachchon ki padhai ki chinta hai. Pata nahee kyun share kar raha hoon.,mild,38,hinglish
+user_0000,"Sach bolun toh Friends ke saath time spend kiya, muje accha lag raha hai. Sab kuch accha hai aur nend bhi poori hotiii hain. Ghar aur job dono sambhalna mushkil hain.",none,42,hinglish
+user_0085,Sach bolun toh Aajkal thoda low aur tired feel hota hai. Loan aur bachchon ki padhai ki chinta hain.,mild,41,hinglish
+user_0324,Halli Aata kashat maja vatat nahi aani mi khoop thaklo aahe. Mala satat chinta aani ekatepana vatato. Ka sangtoy mahit nahin.,moderate,17,roman_mr
+user_0395,"Ab kisi cheez mein maza nahin aata, bahut thak gaya hoon. College aur placementtt ki tension hai. Pata nahin kyun share kar raha hoon...",moderate,20,hinglish
+user_0406,"Main ab handle nai kar pa raha aur khud ko bekar samajhta hoon... Mujhmein koi energy nahee hain, kucch bhi matter nahi karta. Pata nai kyun share kar raha hoon.",severe,18,hinglish
+user_0563,"Sachhh bolun toh Mujhe hamesha anxiety aur akelapan feel hota hai. Ab kisi cheez mein maza nahi aata, bhot thak gaya hoon. Bas yahi likhna tha.",moderate,65,hinglish
+user_0147,"Honestly, Mujhe zyada tar din sad lagta hai aur nind nahi aati.",moderate,24,hinglish
+user_0339,Mi aata sahan karu shakat nai ani swatahla nirupayogi samajto.,severe,21,roman_mr
+user_0092,Khar sangayche tar mla satat chinta aani ekatepana vatato. Hech lihaycha hota.,moderate,23,roman_mr
+user_0553,Halli mla thodaaa udas aani thaklyasarkhe vatate. Kahi divasanpasun kashat mann lagat nai.,mild,46,roman_mr
+user_0152,"Friends ke saath time spend kiya, mujhe accha lag raha hai.",none,35,hinglish
+user_0020,"Sach bolun toh Mujhmein koi energy nahee hain, kuch bhi matterrr nahee karta. College aur placement ki tension hai.",moderate,24,hinglish
+user_0142,Aajkal thoda low aur tired feel hota hai. Bas yahi likhna tha.,mild,33,hinglish
+user_0067,Halli Aaj mi khoop khush aahe ani mla chhannn vatat aahey. Mitranbarobar vel ghalvun mala bara vatla.,none,24,roman_mr
+user_0170,"Sab kuchh accha hain aur nend bhi poori hoti hai. Friends ke saathhh time spend kiya, mujhko accha lag raha hai. Pata nahiii kyun share kar raha hoon...",none,45,hinglish
+user_0207,"Honestly, Main ab handle nahi kar pa raha aur khud ko bekar samajhta hoon. Pata nhi kyun share kar raha hoon.",severe,14,hinglish
+user_0248,Halli Halli mala thoda udas aani thaklyasarkhe vatate.,mild,45,roman_mr
+user_0162,Sab kuchh accha hain aur nind bhi poori hotiii hai. Health aur retirement ki chinta rehti hain.,none,59,hinglish
+user_0339,Khar sangayche tar Aaj mi khoop khush aahe aani mla chhan vatat aahey.,none,21,roman_mr
+user_0458,Is week mujhko kuch karneee ka mann nahee hai. College aur placement ki tension hain. Bas yahi likhna tha.,none,19,hinglish
+user_0575,Khar sangayche tar Halli mla thoda udaas ani thaklyasarkhe vatate.,mild,50,roman_mr
+user_0063,"Honestly, Friends ke saath time spend kiya, mujhe acchaaa lag raha hai. Ghar aur job dono sambhalna mushkil hai. Bas yahi likhna tha.",none,38,hinglish
+user_0020,"Sach bolun toh Friends ke saath time spend kiya, muje accha lag raha hain. Internship ka stress hai. Bas yahi likhnaaa tha.",none,24,hinglish
+user_0503,Kharrr sangayche tar Halli mla thoda udas aani thaklyasarkhe vatate. Ya athvadyat mla kahi karnyachi ichha nahi. Ka sangtoy mahit nahi.,mild,33,roman_mr
+user_0432,Halli Kahi divasanpasun kashattt mann lagat nhi. Ya athvadyat mala kahi karnyachi ichha nahin. Ka sangtoy mahit nai.,mild,21,roman_mr
+user_0142,"Honestly, muje hamesha anxiety aur akelapan feel hota hai. Pata nahi kyun share kar raha hoon.",severe,33,hinglish

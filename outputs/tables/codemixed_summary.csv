@@ -1,0 +1,2 @@
+status,romanized_rows,share_of_dataset_pct,rows_changed_by_normalization,vocab_before,vocab_after,macro_f1_before_normalization,macro_f1_after_normalization
+ok,363,30.25,9,168,167,0.8237898689328637,0.8233296969665614

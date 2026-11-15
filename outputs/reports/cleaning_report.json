@@ -1,0 +1,15 @@
+{
+  "rows_input": 1200,
+  "dropped_missing_text": 0,
+  "dropped_missing_label": 0,
+  "rows_with_pii_removed": 0,
+  "dropped_too_short": 0,
+  "dropped_exact_duplicates": 0,
+  "dropped_conflicting_label_duplicates": 0,
+  "age_missing_or_non_numeric": 0,
+  "age_out_of_range_set_missing": 0,
+  "language_provided_rows": 1200,
+  "language_provided_vs_detected_agreement": 0.995,
+  "rows_output": 1200,
+  "age_band_unknown": 0
+}

@@ -1,0 +1,37 @@
+{
+  "rows": 1200,
+  "column_mapping": {
+    "text": "text",
+    "label": "label",
+    "age": "age",
+    "language": "language",
+    "source_id": "source_id"
+  },
+  "missing_counts": {
+    "text": 0,
+    "label": 0,
+    "age": 0,
+    "age_band": 1200,
+    "language": 0,
+    "source_id": 0
+  },
+  "exact_duplicate_rows": 0,
+  "label_counts_raw": {
+    "none": 458,
+    "mild": 349,
+    "moderate": 240,
+    "severe": 153
+  },
+  "age_available": true,
+  "age_numeric_count": 1200,
+  "age_min": 13.0,
+  "age_max": 65.0,
+  "language_counts_raw": {
+    "en": 487,
+    "hinglish": 209,
+    "hi": 183,
+    "mr": 167,
+    "roman_mr": 154
+  },
+  "warnings": []
+}

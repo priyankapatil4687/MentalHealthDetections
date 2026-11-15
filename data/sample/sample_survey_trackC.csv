@@ -1,0 +1,301 @@
+﻿response_id,age_band,preferred_language,mood_text,phq9_score
+R0000,36-45,English,"To be frank, I cannot cope any more and I feel worthless. I wanted to write this down.",21
+R0001,18-25,English,"To be frank, I feel anxious and alone all the time. Nothing feels enjoyable anymore and I feel exhausted. College results and internship worries are on my mind.",10
+R0002,26-35,Hindi,दोस्तों के साथ समय बिताकर मुझे अच्छा लगा। सब कुछ ठीक चल रहा है और मैं आराम से सोता हूँ। पता नहीं क्यों बता रहा हूँ।,2
+R0003,46+,English,"Life is going well and I am sleeping fine. Feeling happy and full of energy, spent time with friends. Health worries and retirement planning bother me.",1
+R0004,13-17,Marathi,हल्ली मित्रांसोबत वेळ घालवून मला बरं वाटलं. का सांगतोय माहीत नाही.,1
+R0005,18-25,English,"Honestly, Life is going well and I am sleeping fine. Feeling happy and full of energy, spent time with friends. Placement season is making me nervous. Not sure why I am sharing this.",1
+R0006,13-17,Marathi,खरं सांगायचं तर मला कोणतीही आशा दिसत नाही आणि सगळं निरर्थक वाटतं.,21
+R0007,26-35,English,I had a good day today and feel relaxed. Life is going well and I am sleeping fine. Work deadlines and rent are piling up. I wanted to write this down.,4
+R0008,46+,English,"Feeling happy and full of energy, spent time with friends. Life is going well and I am sleeping fine. I wanted to write this down.",0
+R0009,26-35,English,"To be frank, Life is going well and I am sleeping fine. Feeling happy and full of energy, spent time with friends.",4
+R0010,18-25,English,"Honestly, Feeling happy and full of energy, spent time with friends. Placement season is making me nervous.",3
+R0011,18-25,Hinglish,Sach bolun toh Aaj main bahut khush hoon aur sab kuch theek chal raha hai. Internship ka stress hai. Bas yahi likhna tha.,0
+R0012,46+,English,"Honestly, I had a good day today and feel relaxed. Not sure why I am sharing this.",0
+R0013,36-45,Hindi,आजकल मुझे ज़्यादातर दिन उदासी रहती है और नींद नहीं आती। मुझे हर समय घबराहट और अकेलापन महसूस होता है।,11
+R0014,26-35,Hindi,मुझमें कोई ताकत नहीं है और कुछ भी मायने नहीं रखता। मुझे कोई उम्मीद नहीं दिखती और सब कुछ बेकार लगता है। बस यही लिखना था।,23
+R0015,13-17,Hindi,आजकल आज मैं बहुत खुश हूँ और अच्छा महसूस कर रहा हूँ।,1
+R0016,36-45,English,"To be frank, Feeling happy and full of energy, spent time with friends.",4
+R0017,18-25,Marathi,हल्ली मला सतत चिंता आणि एकटेपणा वाटतो. हेच लिहायचं होतं.,19
+R0018,18-25,Hinglish,Khar sangayche tar Aata kashat maja vatat nahi ani mi khup thaklo aahe. Mala satat chinta ani ekatepana vatato. Ka sangtoy mahit nahi.,10
+R0019,13-17,Hinglish,Is week mujhe kuch karne ka mann nahi hai. Ghar mein comparison hota rehta hai. Bas yahi likhna tha.,9
+R0020,26-35,Hindi,सच कहूँ तो इस हफ़्ते मुझे कुछ करने का मन नहीं है। आजकल थोड़ा उदास और थका हुआ महसूस होता है। पता नहीं क्यों बता रहा हूँ।,6
+R0021,18-25,English,Feeling a bit low and tired lately. I worry sometimes and cannot focus much. Placement season is making me nervous. Not sure why I am sharing this.,9
+R0022,18-25,English,Feeling a bit low and tired lately. I worry sometimes and cannot focus much. College results and internship worries are on my mind. Not sure why I am sharing this.,16
+R0023,13-17,Hinglish,Aaj mi khup khush aahe ani mala chhan vatat aahe. Sagla vyavasthit chalu aahe ani mala shant zop lagte. Ka sangtoy mahit nahi.,1
+R0024,36-45,Hindi,आजकल मुझमें कोई ताकत नहीं है और कुछ भी मायने नहीं रखता। बस यही लिखना था।,27
+R0025,46+,Marathi,हल्ली या आठवड्यात मला काही करायची इच्छा नाही.,9
+R0026,26-35,English,"Honestly, Feeling happy and full of energy, spent time with friends. Life is going well and I am sleeping fine. I wanted to write this down.",2
+R0027,13-17,Hinglish,Sach bolun toh Mujhe hamesha anxiety aur akelapan feel hota hai. Mujhe zyada tar din sad lagta hai aur neend nahi aati. Pata nahi kyun share kar raha hoon.,5
+R0028,18-25,English,"Honestly, I feel hopeless and empty, everything feels pointless. Placement season is making me nervous. I wanted to write this down.",12
+R0029,26-35,English,"To be frank, Feeling happy and full of energy, spent time with friends. Work deadlines and rent are piling up.",3
+R0030,26-35,Hindi,आजकल दोस्तों के साथ समय बिताकर मुझे अच्छा लगा। पता नहीं क्यों बता रहा हूँ।,2
+R0031,26-35,Hindi,सच कहूँ तो मुझे ज़्यादातर दिन उदासी रहती है और नींद नहीं आती। अब किसी चीज़ में मज़ा नहीं आता और मैं बहुत थका हूँ।,14
+R0032,18-25,Hinglish,Aajkal thoda low aur tired feel hota hai. College aur placement ki tension hai. Pata nahi kyun share kar raha hoon.,6
+R0033,36-45,Hinglish,Mala satat chinta ani ekatepana vatato. Hech lihaycha hota.,13
+R0034,13-17,Hinglish,Halli Mi aata sahan karu shakat nahi ani swatahla nirupayogi samajto. Majhyat takat nahi ani kahich mahattvache vatat nahi.,25
+R0035,36-45,Marathi,हल्ली मला सतत चिंता आणि एकटेपणा वाटतो. आता कशातच मजा वाटत नाही आणि मी खूप थकलो आहे. का सांगतोय माहीत नाही.,21
+R0036,36-45,Hinglish,Halli Halli mala thoda udas ani thaklyasarkhe vatate. Kahi divasanpasun kashat mann lagat nahi. Hech lihaycha hota.,5
+R0037,18-25,English,"Honestly, I have no energy and nothing matters to me. Not sure why I am sharing this.",26
+R0038,26-35,Marathi,हल्ली मला कोणतीही आशा दिसत नाही आणि सगळं निरर्थक वाटतं.,11
+R0039,36-45,English,I feel anxious and alone all the time. I wanted to write this down.,25
+R0040,26-35,English,"To be frank, I had a good day today and feel relaxed. Life is going well and I am sleeping fine. Work deadlines and rent are piling up. I wanted to write this down.",2
+R0041,26-35,Hinglish,Sach bolun toh Kuch din se kisi cheez mein mann nahi lag raha. Aajkal thoda low aur tired feel hota hai. Office ke deadlines aur EMI ka stress hai. Pata nahi kyun share kar raha hoon.,9
+R0042,36-45,Hindi,आजकल इस हफ़्ते मुझे कुछ करने का मन नहीं है। पता नहीं क्यों बता रहा हूँ।,7
+R0043,36-45,English,"Honestly, I am not very motivated this week. Feeling a bit low and tired lately. Loans and children's studies worry me.",5
+R0044,18-25,English,"Honestly, I feel sad most days and I cannot sleep properly. Placement season is making me nervous.",17
+R0045,18-25,English,I feel anxious and alone all the time. Not sure why I am sharing this.,9
+R0046,46+,English,I had a good day today and feel relaxed. Not sure why I am sharing this.,0
+R0047,26-35,Hinglish,"Honestly, Kuch din se kisi cheez mein mann nahi lag raha. Is week mujhe kuch karne ka mann nahi hai. Pata nahi kyun share kar raha hoon.",8
+R0048,13-17,Hindi,आजकल थोड़ा उदास और थका हुआ महसूस होता है। बस यही लिखना था।,5
+R0049,18-25,English,"Honestly, I have no energy and nothing matters to me. Placement season is making me nervous. Not sure why I am sharing this.",24
+R0050,36-45,English,"Honestly, Life is going well and I am sleeping fine. Feeling happy and full of energy, spent time with friends. Not sure why I am sharing this.",9
+R0051,46+,Hinglish,Halli mala thoda udas ani thaklyasarkhe vatate. Kahi divasanpasun kashat mann lagat nahi.,7
+R0052,26-35,Hindi,सच कहूँ तो दोस्तों के साथ समय बिताकर मुझे अच्छा लगा। आज मैं बहुत खुश हूँ और अच्छा महसूस कर रहा हूँ। पता नहीं क्यों बता रहा हूँ।,4
+R0053,46+,Hinglish,Khar sangayche tar Kahi divasanpasun kashat mann lagat nahi.,6
+R0054,36-45,Hindi,सच कहूँ तो मैं अब सँभाल नहीं पा रहा और खुद को बेकार समझता हूँ। मुझमें कोई ताकत नहीं है और कुछ भी मायने नहीं रखता। पता नहीं क्यों बता रहा हूँ।,21
+R0055,18-25,Marathi,खरं सांगायचं तर काही दिवसांपासून कशातच मन लागत नाही. हेच लिहायचं होतं.,5
+R0056,13-17,Hinglish,"Honestly, Ab kisi cheez mein maza nahi aata, bahut thak gaya hoon. Bas yahi likhna tha.",13
+R0057,26-35,English,Feeling a bit low and tired lately. My job feels demanding.,2
+R0058,13-17,English,"Honestly, Feeling happy and full of energy, spent time with friends. Life is going well and I am sleeping fine. My parents keep comparing me to others. I wanted to write this down.",0
+R0059,13-17,Hinglish,Kuch din se kisi cheez mein mann nahi lag raha. Pata nahi kyun share kar raha hoon.,6
+R0060,18-25,Hindi,सच कहूँ तो मैं अब सँभाल नहीं पा रहा और खुद को बेकार समझता हूँ। बस यही लिखना था।,11
+R0061,18-25,Marathi,खरं सांगायचं तर आज मी खूप आनंदी आहे आणि मला छान वाटत आहे. मित्रांसोबत वेळ घालवून मला बरं वाटलं. का सांगतोय माहीत नाही.,3
+R0062,26-35,Marathi,खरं सांगायचं तर मला बहुतेक दिवस उदास वाटतं आणि झोप येत नाही. आता कशातच मजा वाटत नाही आणि मी खूप थकलो आहे.,14
+R0063,46+,Marathi,हल्ली सगळं व्यवस्थित सुरू आहे आणि मला शांत झोप लागते. मित्रांसोबत वेळ घालवून मला बरं वाटलं.,3
+R0064,18-25,English,I feel sad most days and I cannot sleep properly.,15
+R0065,46+,English,Life is going well and I am sleeping fine. I wanted to write this down.,1
+R0066,13-17,Hinglish,Halli Mala bahutek divas udas vatate ani zop yet nahi. Hech lihaycha hota.,15
+R0067,26-35,Hinglish,Khar sangayche tar Ya athvadyat mala kahi karnyachi ichha nahi. Halli mala thoda udas ani thaklyasarkhe vatate. Hech lihaycha hota.,7
+R0068,36-45,Hinglish,Halli Sagla vyavasthit chalu aahe ani mala shant zop lagte. Aaj mi khup khush aahe ani mala chhan vatat aahe. Ka sangtoy mahit nahi.,1
+R0069,36-45,Hinglish,Khar sangayche tar Aaj mi khup khush aahe ani mala chhan vatat aahe. Sagla vyavasthit chalu aahe ani mala shant zop lagte. Hech lihaycha hota.,2
+R0070,18-25,English,"To be frank, Nothing feels enjoyable anymore and I feel exhausted. College results and internship worries are on my mind. I wanted to write this down.",11
+R0071,26-35,Hinglish,Halli Kahi divasanpasun kashat mann lagat nahi. Hech lihaycha hota.,9
+R0072,26-35,Hindi,सच कहूँ तो कुछ दिनों से मन नहीं लगता है। बस यही लिखना था।,6
+R0073,36-45,English,"Honestly, Feeling happy and full of energy, spent time with friends. I had a good day today and feel relaxed. Managing family responsibilities and my job is hard. I wanted to write this down.",4
+R0074,18-25,Hindi,सच कहूँ तो मुझमें कोई ताकत नहीं है और कुछ भी मायने नहीं रखता।,23
+R0075,46+,English,"To be frank, Life is going well and I am sleeping fine. Feeling happy and full of energy, spent time with friends. Health worries and retirement planning bother me.",1
+R0076,46+,Hinglish,Sab kuch accha hai aur neend bhi poori hoti hai. Health aur retirement ki chinta rehti hai. Pata nahi kyun share kar raha hoon.,3
+R0077,36-45,English,"I feel hopeless and empty, everything feels pointless. I cannot cope any more and I feel worthless. Loans and children's studies worry me.",26
+R0078,26-35,English,"To be frank, I worry sometimes and cannot focus much. I wanted to write this down.",7
+R0079,26-35,Hinglish,Halli Kahi divasanpasun kashat mann lagat nahi. Ya athvadyat mala kahi karnyachi ichha nahi.,9
+R0080,13-17,Marathi,हल्ली मला थोडं उदास आणि थकल्यासारखं वाटतं. या आठवड्यात मला काही करायची इच्छा नाही. हेच लिहायचं होतं.,6
+R0081,18-25,Marathi,खरं सांगायचं तर मला कोणतीही आशा दिसत नाही आणि सगळं निरर्थक वाटतं. माझ्यात ताकद नाही आणि काहीच महत्त्वाचं वाटत नाही. हेच लिहायचं होतं.,25
+R0082,13-17,Hindi,मुझे ज़्यादातर दिन उदासी रहती है और नींद नहीं आती। बस यही लिखना था।,10
+R0083,18-25,Marathi,खरं सांगायचं तर या आठवड्यात मला काही करायची इच्छा नाही. काही दिवसांपासून कशातच मन लागत नाही. का सांगतोय माहीत नाही.,6
+R0084,18-25,Marathi,सगळं व्यवस्थित सुरू आहे आणि मला शांत झोप लागते.,0
+R0085,26-35,English,"Honestly, I am not very motivated this week. I worry sometimes and cannot focus much.",7
+R0086,26-35,English,I feel anxious and alone all the time. I feel sad most days and I cannot sleep properly. I wanted to write this down.,26
+R0087,46+,English,"Honestly, Life is going well and I am sleeping fine. My children live far away. Not sure why I am sharing this.",2
+R0088,36-45,Hinglish,"Honestly, Mujhmein koi energy nahi hai, kuch bhi matter nahi karta. Main ab handle nahi kar pa raha aur khud ko bekar samajhta hoon. Loan aur bachchon ki padhai ki chinta hai. Bas yahi likhna tha.",21
+R0089,46+,Hinglish,"Honestly, Friends ke saath time spend kiya, mujhe accha lag raha hai. Sab kuch accha hai aur neend bhi poori hoti hai. Bachche door rehte hain. Pata nahi kyun share kar raha hoon.",1
+R0090,36-45,Hinglish,"Honestly, Kuch din se kisi cheez mein mann nahi lag raha. Pata nahi kyun share kar raha hoon.",9
+R0091,46+,English,"To be frank, I worry sometimes and cannot focus much. My children live far away. Not sure why I am sharing this.",7
+R0092,26-35,Marathi,काही दिवसांपासून कशातच मन लागत नाही. हेच लिहायचं होतं.,6
+R0093,26-35,Marathi,या आठवड्यात मला काही करायची इच्छा नाही.,3
+R0094,26-35,Marathi,हल्ली माझ्यात ताकद नाही आणि काहीच महत्त्वाचं वाटत नाही. हेच लिहायचं होतं.,26
+R0095,26-35,Hindi,सच कहूँ तो मैं अब सँभाल नहीं पा रहा और खुद को बेकार समझता हूँ।,27
+R0096,18-25,Hindi,आजकल थोड़ा उदास और थका हुआ महसूस होता है।,6
+R0097,18-25,Marathi,खरं सांगायचं तर काही दिवसांपासून कशातच मन लागत नाही. हल्ली मला थोडं उदास आणि थकल्यासारखं वाटतं.,7
+R0098,13-17,Marathi,मित्रांसोबत वेळ घालवून मला बरं वाटलं.,1
+R0099,46+,Marathi,हल्ली सगळं व्यवस्थित सुरू आहे आणि मला शांत झोप लागते.,1
+R0100,26-35,Hinglish,Aaj main bahut khush hoon aur sab kuch theek chal raha hai. Office ke deadlines aur EMI ka stress hai.,4
+R0101,36-45,English,"Honestly, Feeling happy and full of energy, spent time with friends. Not sure why I am sharing this.",4
+R0102,13-17,English,I feel anxious and alone all the time. Nothing feels enjoyable anymore and I feel exhausted. Exams and school pressure are stressing me out. I wanted to write this down.,14
+R0103,26-35,English,I feel sad most days and I cannot sleep properly. Nothing feels enjoyable anymore and I feel exhausted. My job feels demanding.,19
+R0104,46+,Marathi,खरं सांगायचं तर आज मी खूप आनंदी आहे आणि मला छान वाटत आहे. हेच लिहायचं होतं.,3
+R0105,26-35,English,"Honestly, Life is going well and I am sleeping fine. My job feels demanding. Not sure why I am sharing this.",4
+R0106,36-45,Hinglish,"Sach bolun toh Friends ke saath time spend kiya, mujhe accha lag raha hai. Sab kuch accha hai aur neend bhi poori hoti hai. Ghar aur job dono sambhalna mushkil hai.",3
+R0107,46+,English,"Honestly, Life is going well and I am sleeping fine. My children live far away.",2
+R0108,18-25,English,"Honestly, I feel hopeless and empty, everything feels pointless. College results and internship worries are on my mind. Not sure why I am sharing this.",23
+R0109,46+,English,"To be frank, I worry sometimes and cannot focus much. I am not very motivated this week. Health worries and retirement planning bother me. Not sure why I am sharing this.",6
+R0110,26-35,Hinglish,Ya athvadyat mala kahi karnyachi ichha nahi. Hech lihaycha hota.,9
+R0111,18-25,Hinglish,Halli Ya athvadyat mala kahi karnyachi ichha nahi.,17
+R0112,18-25,English,Nothing feels enjoyable anymore and I feel exhausted. College results and internship worries are on my mind.,11
+R0113,46+,English,"To be frank, I worry sometimes and cannot focus much.",5
+R0114,46+,English,"Honestly, Life is going well and I am sleeping fine. I had a good day today and feel relaxed. Not sure why I am sharing this.",5
+R0115,13-17,Marathi,खरं सांगायचं तर आता कशातच मजा वाटत नाही आणि मी खूप थकलो आहे. मला बहुतेक दिवस उदास वाटतं आणि झोप येत नाही.,12
+R0116,36-45,Hinglish,Halli Aaj mi khup khush aahe ani mala chhan vatat aahe. Mitranbarobar vel ghalvun mala bara vatla. Ka sangtoy mahit nahi.,1
+R0117,36-45,Marathi,हल्ली सगळं व्यवस्थित सुरू आहे आणि मला शांत झोप लागते. मित्रांसोबत वेळ घालवून मला बरं वाटलं. हेच लिहायचं होतं.,8
+R0118,46+,Hinglish,"Honestly, Mujhe hamesha anxiety aur akelapan feel hota hai. Bachche door rehte hain. Bas yahi likhna tha.",19
+R0119,26-35,English,"Honestly, Feeling happy and full of energy, spent time with friends. Life is going well and I am sleeping fine. Work deadlines and rent are piling up.",0
+R0120,46+,Hinglish,"Mujhe koi hope nahi dikhti, sab kuch bekar lagta hai. Bachche door rehte hain. Pata nahi kyun share kar raha hoon.",26
+R0121,18-25,Marathi,मला कोणतीही आशा दिसत नाही आणि सगळं निरर्थक वाटतं. हेच लिहायचं होतं.,26
+R0122,18-25,Hinglish,"Honestly, Ab kisi cheez mein maza nahi aata, bahut thak gaya hoon. Mujhe zyada tar din sad lagta hai aur neend nahi aati. Pata nahi kyun share kar raha hoon.",19
+R0123,46+,Hinglish,Sagla vyavasthit chalu aahe ani mala shant zop lagte.,8
+R0124,13-17,English,"To be frank, Life is going well and I am sleeping fine. Not sure why I am sharing this.",4
+R0125,46+,English,"To be frank, I am not very motivated this week. Health worries and retirement planning bother me. I wanted to write this down.",7
+R0126,46+,Marathi,हल्ली मला थोडं उदास आणि थकल्यासारखं वाटतं. का सांगतोय माहीत नाही.,9
+R0127,18-25,Marathi,खरं सांगायचं तर मला सतत चिंता आणि एकटेपणा वाटतो. का सांगतोय माहीत नाही.,10
+R0128,36-45,Hinglish,"Honestly, Friends ke saath time spend kiya, mujhe accha lag raha hai. Loan aur bachchon ki padhai ki chinta hai. Bas yahi likhna tha.",0
+R0129,46+,Hinglish,"Honestly, Sab kuch accha hai aur neend bhi poori hoti hai. Bas yahi likhna tha.",4
+R0130,13-17,English,"To be frank, I cannot cope any more and I feel worthless. I feel hopeless and empty, everything feels pointless.",24
+R0131,26-35,Marathi,खरं सांगायचं तर मला सतत चिंता आणि एकटेपणा वाटतो. आता कशातच मजा वाटत नाही आणि मी खूप थकलो आहे. हेच लिहायचं होतं.,15
+R0132,46+,Hindi,इस हफ़्ते मुझे कुछ करने का मन नहीं है। आजकल थोड़ा उदास और थका हुआ महसूस होता है। बस यही लिखना था।,0
+R0133,18-25,English,"To be frank, Life is going well and I am sleeping fine. I wanted to write this down.",2
+R0134,36-45,Marathi,खरं सांगायचं तर मला कोणतीही आशा दिसत नाही आणि सगळं निरर्थक वाटतं. मी आता सहन करू शकत नाही आणि स्वतःला निरुपयोगी समजतो.,26
+R0135,46+,English,"Honestly, Nothing feels enjoyable anymore and I feel exhausted. I feel anxious and alone all the time. I wanted to write this down.",6
+R0136,18-25,Marathi,हल्ली मला बहुतेक दिवस उदास वाटतं आणि झोप येत नाही. मला सतत चिंता आणि एकटेपणा वाटतो.,17
+R0137,46+,English,"I feel hopeless and empty, everything feels pointless. I cannot cope any more and I feel worthless. Not sure why I am sharing this.",20
+R0138,18-25,Hinglish,Ya athvadyat mala kahi karnyachi ichha nahi. Kahi divasanpasun kashat mann lagat nahi.,7
+R0139,18-25,Hindi,आजकल दोस्तों के साथ समय बिताकर मुझे अच्छा लगा। आज मैं बहुत खुश हूँ और अच्छा महसूस कर रहा हूँ। पता नहीं क्यों बता रहा हूँ।,4
+R0140,46+,English,Nothing feels enjoyable anymore and I feel exhausted. Health worries and retirement planning bother me. Not sure why I am sharing this.,6
+R0141,18-25,English,I feel anxious and alone all the time. Nothing feels enjoyable anymore and I feel exhausted. College results and internship worries are on my mind.,21
+R0142,36-45,English,"To be frank, I feel sad most days and I cannot sleep properly. I feel anxious and alone all the time. Managing family responsibilities and my job is hard. I wanted to write this down.",7
+R0143,18-25,Hinglish,"Honestly, Aajkal thoda low aur tired feel hota hai. Is week mujhe kuch karne ka mann nahi hai. College aur placement ki tension hai. Bas yahi likhna tha.",9
+R0144,26-35,Hindi,आजकल इस हफ़्ते मुझे कुछ करने का मन नहीं है। कुछ दिनों से मन नहीं लगता है। बस यही लिखना था।,9
+R0145,18-25,English,Nothing feels enjoyable anymore and I feel exhausted. Placement season is making me nervous. I wanted to write this down.,13
+R0146,26-35,English,"Honestly, I feel anxious and alone all the time. My job feels demanding.",12
+R0147,13-17,Hindi,सब कुछ ठीक चल रहा है और मैं आराम से सोता हूँ।,2
+R0148,13-17,Hinglish,Aaj main bahut khush hoon aur sab kuch theek chal raha hai. Sab kuch accha hai aur neend bhi poori hoti hai. Exams ka pressure bahut hai. Bas yahi likhna tha.,1
+R0149,26-35,English,"Honestly, I worry sometimes and cannot focus much.",9
+R0150,36-45,Marathi,मित्रांसोबत वेळ घालवून मला बरं वाटलं. का सांगतोय माहीत नाही.,4
+R0151,46+,English,"Honestly, Feeling a bit low and tired lately. Health worries and retirement planning bother me. Not sure why I am sharing this.",5
+R0152,18-25,English,"To be frank, Feeling happy and full of energy, spent time with friends. Placement season is making me nervous.",4
+R0153,46+,Hinglish,Khar sangayche tar Kahi divasanpasun kashat mann lagat nahi. Ya athvadyat mala kahi karnyachi ichha nahi.,15
+R0154,36-45,Hinglish,"Sach bolun toh Aaj main bahut khush hoon aur sab kuch theek chal raha hai. Friends ke saath time spend kiya, mujhe accha lag raha hai. Pata nahi kyun share kar raha hoon.",3
+R0155,13-17,English,Nothing feels enjoyable anymore and I feel exhausted. Exams and school pressure are stressing me out. Not sure why I am sharing this.,10
+R0156,46+,English,"To be frank, Feeling happy and full of energy, spent time with friends. My children live far away. I wanted to write this down.",0
+R0157,18-25,English,"To be frank, I have no energy and nothing matters to me. I feel hopeless and empty, everything feels pointless. Placement season is making me nervous.",15
+R0158,18-25,English,"Honestly, Feeling happy and full of energy, spent time with friends. I had a good day today and feel relaxed. Placement season is making me nervous. I wanted to write this down.",2
+R0159,18-25,Hindi,मुझे हर समय घबराहट और अकेलापन महसूस होता है। बस यही लिखना था।,13
+R0160,13-17,English,"To be frank, I cannot cope any more and I feel worthless. Exams and school pressure are stressing me out.",20
+R0161,46+,English,"Honestly, I have no energy and nothing matters to me. Health worries and retirement planning bother me.",23
+R0162,18-25,Hindi,सच कहूँ तो दोस्तों के साथ समय बिताकर मुझे अच्छा लगा। बस यही लिखना था।,4
+R0163,26-35,Hinglish,Kuch din se kisi cheez mein mann nahi lag raha. Aajkal thoda low aur tired feel hota hai. Bas yahi likhna tha.,5
+R0164,13-17,Hindi,सच कहूँ तो इस हफ़्ते मुझे कुछ करने का मन नहीं है। पता नहीं क्यों बता रहा हूँ।,5
+R0165,36-45,English,"Honestly, Feeling a bit low and tired lately. I worry sometimes and cannot focus much. Managing family responsibilities and my job is hard. Not sure why I am sharing this.",8
+R0166,18-25,English,"Honestly, I worry sometimes and cannot focus much. College results and internship worries are on my mind. I wanted to write this down.",5
+R0167,36-45,English,"To be frank, I had a good day today and feel relaxed. I wanted to write this down.",9
+R0168,26-35,Hinglish,Khar sangayche tar Kahi divasanpasun kashat mann lagat nahi. Ya athvadyat mala kahi karnyachi ichha nahi. Hech lihaycha hota.,6
+R0169,18-25,English,Feeling a bit low and tired lately. I wanted to write this down.,12
+R0170,46+,Marathi,खरं सांगायचं तर मित्रांसोबत वेळ घालवून मला बरं वाटलं. सगळं व्यवस्थित सुरू आहे आणि मला शांत झोप लागते.,3
+R0171,36-45,Hindi,आजकल आजकल थोड़ा उदास और थका हुआ महसूस होता है। पता नहीं क्यों बता रहा हूँ।,9
+R0172,46+,English,"To be frank, Life is going well and I am sleeping fine. Feeling happy and full of energy, spent time with friends. I wanted to write this down.",1
+R0173,46+,Hinglish,Khar sangayche tar Sagla vyavasthit chalu aahe ani mala shant zop lagte. Ka sangtoy mahit nahi.,2
+R0174,36-45,English,"Honestly, I am not very motivated this week. Not sure why I am sharing this.",9
+R0175,18-25,English,"To be frank, Life is going well and I am sleeping fine. I had a good day today and feel relaxed. Placement season is making me nervous. Not sure why I am sharing this.",4
+R0176,18-25,Marathi,आज मी खूप आनंदी आहे आणि मला छान वाटत आहे. मित्रांसोबत वेळ घालवून मला बरं वाटलं. का सांगतोय माहीत नाही.,3
+R0177,26-35,English,"Honestly, I worry sometimes and cannot focus much. My job feels demanding. I wanted to write this down.",1
+R0178,36-45,Marathi,हल्ली काही दिवसांपासून कशातच मन लागत नाही. या आठवड्यात मला काही करायची इच्छा नाही. का सांगतोय माहीत नाही.,9
+R0179,13-17,English,"I feel hopeless and empty, everything feels pointless. I cannot cope any more and I feel worthless. Exams and school pressure are stressing me out.",23
+R0180,18-25,Hinglish,Aaj main bahut khush hoon aur sab kuch theek chal raha hai. Bas yahi likhna tha.,2
+R0181,36-45,English,"I had a good day today and feel relaxed. Feeling happy and full of energy, spent time with friends. Not sure why I am sharing this.",3
+R0182,46+,Hinglish,Mitranbarobar vel ghalvun mala bara vatla. Hech lihaycha hota.,2
+R0183,46+,Marathi,हल्ली मित्रांसोबत वेळ घालवून मला बरं वाटलं.,3
+R0184,18-25,Hindi,आजकल मुझे कोई उम्मीद नहीं दिखती और सब कुछ बेकार लगता है। पता नहीं क्यों बता रहा हूँ।,27
+R0185,18-25,English,"To be frank, Nothing feels enjoyable anymore and I feel exhausted. I feel anxious and alone all the time. College results and internship worries are on my mind.",11
+R0186,46+,English,"Honestly, Feeling happy and full of energy, spent time with friends. Life is going well and I am sleeping fine. Health worries and retirement planning bother me.",1
+R0187,26-35,Hinglish,"Honestly, Main ab handle nahi kar pa raha aur khud ko bekar samajhta hoon. Mujhe koi hope nahi dikhti, sab kuch bekar lagta hai. Pata nahi kyun share kar raha hoon.",13
+R0188,18-25,English,Feeling a bit low and tired lately. Placement season is making me nervous.,5
+R0189,46+,Marathi,हल्ली काही दिवसांपासून कशातच मन लागत नाही. हल्ली मला थोडं उदास आणि थकल्यासारखं वाटतं. हेच लिहायचं होतं.,7
+R0190,46+,Hinglish,"Honestly, Friends ke saath time spend kiya, mujhe accha lag raha hai. Bachche door rehte hain.",0
+R0191,36-45,Marathi,हल्ली मला थोडं उदास आणि थकल्यासारखं वाटतं. या आठवड्यात मला काही करायची इच्छा नाही. का सांगतोय माहीत नाही.,9
+R0192,46+,English,I had a good day today and feel relaxed.,4
+R0193,13-17,Hindi,मुझे ज़्यादातर दिन उदासी रहती है और नींद नहीं आती।,13
+R0194,26-35,Marathi,खरं सांगायचं तर काही दिवसांपासून कशातच मन लागत नाही.,9
+R0195,18-25,English,"Honestly, Nothing feels enjoyable anymore and I feel exhausted. Not sure why I am sharing this.",6
+R0196,26-35,Hinglish,Khar sangayche tar Mitranbarobar vel ghalvun mala bara vatla.,0
+R0197,18-25,Hindi,सच कहूँ तो कुछ दिनों से मन नहीं लगता है।,5
+R0198,18-25,Hinglish,"Honestly, Kuch din se kisi cheez mein mann nahi lag raha. College aur placement ki tension hai. Pata nahi kyun share kar raha hoon.",5
+R0199,13-17,English,"To be frank, I am not very motivated this week. I worry sometimes and cannot focus much. I wanted to write this down.",6
+R0200,13-17,Hinglish,Sach bolun toh Aaj main bahut khush hoon aur sab kuch theek chal raha hai. Ghar mein comparison hota rehta hai.,0
+R0201,18-25,Hinglish,Halli Sagla vyavasthit chalu aahe ani mala shant zop lagte. Hech lihaycha hota.,5
+R0202,26-35,English,I feel anxious and alone all the time. I feel sad most days and I cannot sleep properly. Not sure why I am sharing this.,15
+R0203,13-17,English,"To be frank, Life is going well and I am sleeping fine. Feeling happy and full of energy, spent time with friends. Exams and school pressure are stressing me out.",5
+R0204,26-35,English,"To be frank, Nothing feels enjoyable anymore and I feel exhausted. Work deadlines and rent are piling up. Not sure why I am sharing this.",18
+R0205,26-35,Hinglish,Halli Mala konatihi asha disat nahi ani sagla nirarthak vatate.,23
+R0206,13-17,Hinglish,Khar sangayche tar Halli mala thoda udas ani thaklyasarkhe vatate. Ya athvadyat mala kahi karnyachi ichha nahi. Hech lihaycha hota.,7
+R0207,26-35,English,"Honestly, Feeling happy and full of energy, spent time with friends. Life is going well and I am sleeping fine. Not sure why I am sharing this.",3
+R0208,46+,Hinglish,Sab kuch accha hai aur neend bhi poori hoti hai. Bachche door rehte hain. Pata nahi kyun share kar raha hoon.,1
+R0209,13-17,Hinglish,Halli Aata kashat maja vatat nahi ani mi khup thaklo aahe. Mala satat chinta ani ekatepana vatato. Ka sangtoy mahit nahi.,18
+R0210,26-35,Hinglish,Khar sangayche tar Halli mala thoda udas ani thaklyasarkhe vatate. Ya athvadyat mala kahi karnyachi ichha nahi. Ka sangtoy mahit nahi.,6
+R0211,18-25,Hinglish,Aaj mi khup khush aahe ani mala chhan vatat aahe. Ka sangtoy mahit nahi.,4
+R0212,36-45,English,I had a good day today and feel relaxed. Life is going well and I am sleeping fine. Managing family responsibilities and my job is hard.,4
+R0213,18-25,Hinglish,Khar sangayche tar Kahi divasanpasun kashat mann lagat nahi. Halli mala thoda udas ani thaklyasarkhe vatate.,17
+R0214,18-25,English,"To be frank, I had a good day today and feel relaxed. College results and internship worries are on my mind. Not sure why I am sharing this.",1
+R0215,26-35,English,"Honestly, Feeling happy and full of energy, spent time with friends. Work deadlines and rent are piling up. Not sure why I am sharing this.",3
+R0216,26-35,Hinglish,"Honestly, Aajkal thoda low aur tired feel hota hai. Kuch din se kisi cheez mein mann nahi lag raha. Office ke deadlines aur EMI ka stress hai.",8
+R0217,46+,Hinglish,Khar sangayche tar Aaj mi khup khush aahe ani mala chhan vatat aahe. Ka sangtoy mahit nahi.,1
+R0218,13-17,English,"I have no energy and nothing matters to me. I feel hopeless and empty, everything feels pointless. My parents keep comparing me to others. I wanted to write this down.",21
+R0219,46+,Hinglish,Kahi divasanpasun kashat mann lagat nahi. Ya athvadyat mala kahi karnyachi ichha nahi. Ka sangtoy mahit nahi.,5
+R0220,36-45,Marathi,खरं सांगायचं तर आज मी खूप आनंदी आहे आणि मला छान वाटत आहे. मित्रांसोबत वेळ घालवून मला बरं वाटलं. हेच लिहायचं होतं.,3
+R0221,13-17,English,"Honestly, I feel sad most days and I cannot sleep properly.",15
+R0222,46+,English,"Honestly, Feeling happy and full of energy, spent time with friends. Life is going well and I am sleeping fine. Health worries and retirement planning bother me. Not sure why I am sharing this.",3
+R0223,36-45,Hinglish,Mala satat chinta ani ekatepana vatato. Ka sangtoy mahit nahi.,8
+R0224,26-35,English,"Honestly, I worry sometimes and cannot focus much. Work deadlines and rent are piling up. I wanted to write this down.",8
+R0225,26-35,Hinglish,"Honestly, Aajkal thoda low aur tired feel hota hai. Kuch din se kisi cheez mein mann nahi lag raha. Pata nahi kyun share kar raha hoon.",5
+R0226,26-35,English,I am not very motivated this week. Work deadlines and rent are piling up. I wanted to write this down.,5
+R0227,18-25,Marathi,खरं सांगायचं तर मला बहुतेक दिवस उदास वाटतं आणि झोप येत नाही. मला सतत चिंता आणि एकटेपणा वाटतो.,10
+R0228,46+,English,I am not very motivated this week. I worry sometimes and cannot focus much. Not sure why I am sharing this.,8
+R0229,18-25,Hindi,आजकल मुझमें कोई ताकत नहीं है और कुछ भी मायने नहीं रखता। मैं अब सँभाल नहीं पा रहा और खुद को बेकार समझता हूँ। पता नहीं क्यों बता रहा हूँ।,15
+R0230,26-35,Hindi,आजकल मुझे कोई उम्मीद नहीं दिखती और सब कुछ बेकार लगता है। मुझमें कोई ताकत नहीं है और कुछ भी मायने नहीं रखता। पता नहीं क्यों बता रहा हूँ।,11
+R0231,36-45,English,"To be frank, I feel sad most days and I cannot sleep properly. Managing family responsibilities and my job is hard.",6
+R0232,26-35,English,I had a good day today and feel relaxed. Life is going well and I am sleeping fine.,1
+R0233,18-25,English,"Honestly, Life is going well and I am sleeping fine. I had a good day today and feel relaxed. College results and internship worries are on my mind. Not sure why I am sharing this.",6
+R0234,36-45,English,"Honestly, I cannot cope any more and I feel worthless. I have no energy and nothing matters to me. Loans and children's studies worry me.",18
+R0235,36-45,Hinglish,Halli Aaj mi khup khush aahe ani mala chhan vatat aahe. Sagla vyavasthit chalu aahe ani mala shant zop lagte. Ka sangtoy mahit nahi.,3
+R0236,13-17,English,"To be frank, I worry sometimes and cannot focus much. Exams and school pressure are stressing me out.",6
+R0237,36-45,English,"To be frank, I had a good day today and feel relaxed. Feeling happy and full of energy, spent time with friends. Managing family responsibilities and my job is hard. Not sure why I am sharing this.",3
+R0238,13-17,Hindi,सच कहूँ तो आजकल थोड़ा उदास और थका हुआ महसूस होता है। कुछ दिनों से मन नहीं लगता है। बस यही लिखना था।,6
+R0239,36-45,Hindi,आजकल इस हफ़्ते मुझे कुछ करने का मन नहीं है। बस यही लिखना था।,7
+R0240,46+,English,"Honestly, I had a good day today and feel relaxed. Life is going well and I am sleeping fine. I wanted to write this down.",3
+R0241,18-25,English,"To be frank, I had a good day today and feel relaxed. College results and internship worries are on my mind.",1
+R0242,36-45,English,"Honestly, I had a good day today and feel relaxed. I wanted to write this down.",0
+R0243,46+,Hinglish,Ya athvadyat mala kahi karnyachi ichha nahi. Halli mala thoda udas ani thaklyasarkhe vatate. Hech lihaycha hota.,8
+R0244,46+,English,Nothing feels enjoyable anymore and I feel exhausted. I feel sad most days and I cannot sleep properly. Health worries and retirement planning bother me. I wanted to write this down.,18
+R0245,13-17,English,"Honestly, I had a good day today and feel relaxed. Life is going well and I am sleeping fine. Exams and school pressure are stressing me out. I wanted to write this down.",0
+R0246,36-45,Hinglish,Aajkal thoda low aur tired feel hota hai. Is week mujhe kuch karne ka mann nahi hai.,5
+R0247,26-35,English,"Honestly, Feeling happy and full of energy, spent time with friends. Life is going well and I am sleeping fine. My job feels demanding.",4
+R0248,36-45,Hinglish,Halli Kahi divasanpasun kashat mann lagat nahi. Ka sangtoy mahit nahi.,5
+R0249,36-45,English,I feel sad most days and I cannot sleep properly. Not sure why I am sharing this.,21
+R0250,18-25,Hindi,सच कहूँ तो मुझे हर समय घबराहट और अकेलापन महसूस होता है। बस यही लिखना था।,13
+R0251,13-17,English,"Honestly, I feel anxious and alone all the time. I feel sad most days and I cannot sleep properly. Not sure why I am sharing this.",22
+R0252,13-17,Hinglish,"Honestly, Sab kuch accha hai aur neend bhi poori hoti hai. Exams ka pressure bahut hai. Bas yahi likhna tha.",3
+R0253,18-25,English,"Honestly, Feeling happy and full of energy, spent time with friends. Life is going well and I am sleeping fine. College results and internship worries are on my mind. Not sure why I am sharing this.",3
+R0254,13-17,Hindi,सब कुछ ठीक चल रहा है और मैं आराम से सोता हूँ। बस यही लिखना था।,3
+R0255,46+,English,"Honestly, I had a good day today and feel relaxed. Health worries and retirement planning bother me. I wanted to write this down.",1
+R0256,18-25,Hinglish,Khar sangayche tar Halli mala thoda udas ani thaklyasarkhe vatate. Kahi divasanpasun kashat mann lagat nahi. Ka sangtoy mahit nahi.,8
+R0257,46+,English,"To be frank, Feeling a bit low and tired lately. I worry sometimes and cannot focus much. I wanted to write this down.",5
+R0258,18-25,English,"Honestly, Feeling a bit low and tired lately. Placement season is making me nervous. I wanted to write this down.",6
+R0259,46+,Hinglish,Sab kuch accha hai aur neend bhi poori hoti hai. Health aur retirement ki chinta rehti hai.,3
+R0260,46+,English,"To be frank, I had a good day today and feel relaxed. Feeling happy and full of energy, spent time with friends.",0
+R0261,46+,English,Feeling a bit low and tired lately. My children live far away.,8
+R0262,26-35,English,"To be frank, Life is going well and I am sleeping fine. Feeling happy and full of energy, spent time with friends. Work deadlines and rent are piling up. I wanted to write this down.",2
+R0263,36-45,English,"Honestly, I had a good day today and feel relaxed. Managing family responsibilities and my job is hard. I wanted to write this down.",3
+R0264,36-45,Hinglish,Sach bolun toh Is week mujhe kuch karne ka mann nahi hai. Bas yahi likhna tha.,7
+R0265,46+,Hindi,सच कहूँ तो कुछ दिनों से मन नहीं लगता है। इस हफ़्ते मुझे कुछ करने का मन नहीं है। बस यही लिखना था।,3
+R0266,36-45,Hinglish,Sach bolun toh Aaj main bahut khush hoon aur sab kuch theek chal raha hai.,9
+R0267,26-35,Hinglish,"Sach bolun toh Mujhe koi hope nahi dikhti, sab kuch bekar lagta hai. Main ab handle nahi kar pa raha aur khud ko bekar samajhta hoon. Office ke deadlines aur EMI ka stress hai. Bas yahi likhna tha.",27
+R0268,46+,Marathi,सगळं व्यवस्थित सुरू आहे आणि मला शांत झोप लागते. आज मी खूप आनंदी आहे आणि मला छान वाटत आहे. का सांगतोय माहीत नाही.,1
+R0269,46+,English,"Feeling happy and full of energy, spent time with friends. I had a good day today and feel relaxed. My children live far away. I wanted to write this down.",1
+R0270,18-25,English,"Honestly, I cannot cope any more and I feel worthless. College results and internship worries are on my mind.",24
+R0271,26-35,English,"Honestly, I cannot cope any more and I feel worthless. I feel hopeless and empty, everything feels pointless. My job feels demanding. Not sure why I am sharing this.",13
+R0272,18-25,Hindi,आजकल अब किसी चीज़ में मज़ा नहीं आता और मैं बहुत थका हूँ। मुझे ज़्यादातर दिन उदासी रहती है और नींद नहीं आती। बस यही लिखना था।,10
+R0273,36-45,English,"Honestly, I feel anxious and alone all the time. Loans and children's studies worry me.",19
+R0274,18-25,English,I feel sad most days and I cannot sleep properly. Nothing feels enjoyable anymore and I feel exhausted. Not sure why I am sharing this.,18
+R0275,26-35,Hindi,मुझे ज़्यादातर दिन उदासी रहती है और नींद नहीं आती। मुझे हर समय घबराहट और अकेलापन महसूस होता है।,10
+R0276,18-25,Hinglish,"Honestly, Friends ke saath time spend kiya, mujhe accha lag raha hai. College aur placement ki tension hai. Pata nahi kyun share kar raha hoon.",2
+R0277,13-17,Marathi,खरं सांगायचं तर मला सतत चिंता आणि एकटेपणा वाटतो. हेच लिहायचं होतं.,10
+R0278,18-25,Hinglish,Mujhe hamesha anxiety aur akelapan feel hota hai. Pata nahi kyun share kar raha hoon.,10
+R0279,18-25,Hinglish,"Sach bolun toh Main ab handle nahi kar pa raha aur khud ko bekar samajhta hoon. Mujhmein koi energy nahi hai, kuch bhi matter nahi karta.",27
+R0280,36-45,Hinglish,Sach bolun toh Aajkal thoda low aur tired feel hota hai. Is week mujhe kuch karne ka mann nahi hai. Loan aur bachchon ki padhai ki chinta hai. Pata nahi kyun share kar raha hoon.,9
+R0281,18-25,English,"Honestly, I worry sometimes and cannot focus much. Feeling a bit low and tired lately. Not sure why I am sharing this.",9
+R0282,36-45,Hinglish,Sach bolun toh Kuch din se kisi cheez mein mann nahi lag raha. Ghar aur job dono sambhalna mushkil hai. Bas yahi likhna tha.,6
+R0283,13-17,English,"Feeling happy and full of energy, spent time with friends. Life is going well and I am sleeping fine. Not sure why I am sharing this.",0
+R0284,18-25,English,I feel sad most days and I cannot sleep properly. I feel anxious and alone all the time. Not sure why I am sharing this.,18
+R0285,26-35,Hindi,मैं अब सँभाल नहीं पा रहा और खुद को बेकार समझता हूँ। मुझे कोई उम्मीद नहीं दिखती और सब कुछ बेकार लगता है। पता नहीं क्यों बता रहा हूँ।,21
+R0286,26-35,Hindi,सच कहूँ तो आज मैं बहुत खुश हूँ और अच्छा महसूस कर रहा हूँ। दोस्तों के साथ समय बिताकर मुझे अच्छा लगा। बस यही लिखना था।,1
+R0287,18-25,English,"To be frank, I cannot cope any more and I feel worthless. Not sure why I am sharing this.",21
+R0288,26-35,Hindi,कुछ दिनों से मन नहीं लगता है। इस हफ़्ते मुझे कुछ करने का मन नहीं है। बस यही लिखना था।,9
+R0289,13-17,English,"Honestly, I worry sometimes and cannot focus much. I am not very motivated this week. Not sure why I am sharing this.",5
+R0290,18-25,English,"I have no energy and nothing matters to me. I feel hopeless and empty, everything feels pointless. Placement season is making me nervous. I wanted to write this down.",23
+R0291,26-35,English,I had a good day today and feel relaxed. My job feels demanding.,3
+R0292,18-25,Hinglish,"Mujhe zyada tar din sad lagta hai aur neend nahi aati. Ab kisi cheez mein maza nahi aata, bahut thak gaya hoon. College aur placement ki tension hai.",11
+R0293,36-45,Hinglish,Halli Halli mala thoda udas ani thaklyasarkhe vatate.,9
+R0294,18-25,Hinglish,Halli Sagla vyavasthit chalu aahe ani mala shant zop lagte. Ka sangtoy mahit nahi.,1
+R0295,18-25,English,"To be frank, Life is going well and I am sleeping fine. College results and internship worries are on my mind. I wanted to write this down.",4
+R0296,26-35,English,"To be frank, I had a good day today and feel relaxed. Life is going well and I am sleeping fine. My job feels demanding. I wanted to write this down.",4
+R0297,18-25,Hinglish,Khar sangayche tar Mi aata sahan karu shakat nahi ani swatahla nirupayogi samajto. Hech lihaycha hota.,20
+R0298,18-25,Hindi,मैं अब सँभाल नहीं पा रहा और खुद को बेकार समझता हूँ। पता नहीं क्यों बता रहा हूँ।,21
+R0299,36-45,English,"Honestly, I feel sad most days and I cannot sleep properly. Nothing feels enjoyable anymore and I feel exhausted. I wanted to write this down.",16
