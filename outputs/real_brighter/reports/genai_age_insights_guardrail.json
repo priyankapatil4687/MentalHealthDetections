@@ -1,0 +1,49 @@
+{
+  "facts_sent": {
+    "rows_after_cleaning": 6662,
+    "dataset_files": [
+      "brighter_pooled.csv"
+    ],
+    "synthetic_test_data": false,
+    "proxy_labels": false,
+    "min_group_n": 30,
+    "significance_threshold": 0.05,
+    "p_value_reporting_floor": 0.001,
+    "age": {
+      "status": "unavailable"
+    },
+    "language": {
+      "counts": {
+        "en": 2259,
+        "hi": 2205,
+        "mr": 2198
+      },
+      "code_mixed_share_pct": 0.0
+    },
+    "models": {
+      "n_models_compared": 3,
+      "best_model": "linear_svm",
+      "best_macro_f1": 0.816,
+      "gaps": [
+        {
+          "group_type": "language",
+          "model": "linear_svm",
+          "macro_f1_gap": 0.261
+        }
+      ]
+    }
+  },
+  "guardrail": {
+    "numbers": {
+      "ok": true,
+      "unverified_numbers": [],
+      "numbers_checked": 10
+    },
+    "safety": {
+      "ok": true,
+      "banned_phrases_found": []
+    },
+    "source": "offline-template",
+    "notes": []
+  }
+}

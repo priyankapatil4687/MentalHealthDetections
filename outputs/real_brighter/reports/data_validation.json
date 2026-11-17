@@ -1,0 +1,36 @@
+{
+  "rows": 7500,
+  "column_mapping": {
+    "text": "text",
+    "label": "label",
+    "age": "age",
+    "language": "language",
+    "source_id": "source_id"
+  },
+  "missing_counts": {
+    "text": 0,
+    "label": 0,
+    "age": 7500,
+    "age_band": 7500,
+    "language": 0,
+    "source_id": 0
+  },
+  "exact_duplicate_rows": 836,
+  "label_counts_raw": {
+    "neutral_or_other": 4315,
+    "negative_affect": 3185
+  },
+  "age_available": false,
+  "age_numeric_count": 0,
+  "age_min": null,
+  "age_max": null,
+  "language_counts_raw": {
+    "en": 2500,
+    "hi": 2500,
+    "mr": 2500
+  },
+  "warnings": [
+    "No age information: age analyses (O1, O2, O4) will be skipped.",
+    "Duplicate rows found; they will be removed in cleaning."
+  ]
+}

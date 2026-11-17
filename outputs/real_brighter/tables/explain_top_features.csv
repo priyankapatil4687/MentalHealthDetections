@@ -1,0 +1,21 @@
+﻿label,term,coefficient
+negative_affect,भीती,2.9431043711543694
+negative_affect,डर,2.849468612609157
+negative_affect,दुःख,1.787364132967726
+negative_affect,भीती वाटते,1.540339169083952
+negative_affect,नाही,1.470207566159191
+negative_affect,चिंता,1.2948978691287691
+negative_affect,उदास,1.2940532199629076
+negative_affect,वाटते,1.2700455848061205
+negative_affect,मन,1.1534151664571044
+negative_affect,हो,1.1003608026001357
+neutral_or_other,राग,1.5847217411004604
+neutral_or_other,घृणा,1.4078259184769473
+neutral_or_other,आनंद,1.2224297060354423
+neutral_or_other,और,1.141054323001021
+neutral_or_other,खुश,1.037524925244758
+neutral_or_other,घृणा वाटते,1.0146703461519038
+neutral_or_other,है,1.0103989390177806
+neutral_or_other,आश्चर्य,0.950421429025705
+neutral_or_other,खूप आनंद,0.9025342041513383
+neutral_or_other,खुशी,0.8714227417693303

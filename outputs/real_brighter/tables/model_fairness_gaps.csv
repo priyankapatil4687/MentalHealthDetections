@@ -1,0 +1,4 @@
+model,group_type,groups_compared,macro_f1_gap,worst_group,recall_gap
+complement_nb,language,3,0.10050466736420416,en,0.04526748971193417
+linear_svm,language,3,0.26057402334761715,en,0.25270956233153863
+logreg,language,3,0.3465361599832185,en,0.29075430952709314

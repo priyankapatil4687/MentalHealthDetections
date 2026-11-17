@@ -1,0 +1,121 @@
+{
+  "rows": 6662,
+  "sources": [
+    "brighter_pooled.csv"
+  ],
+  "age_analysis_O1_O2": {
+    "rows_total": 6662,
+    "rows_with_age": 0,
+    "status": "unavailable: no reliable age information in this dataset"
+  },
+  "language_analysis_O3": {
+    "status": "ok",
+    "language_counts": {
+      "en": 2259,
+      "hi": 2205,
+      "mr": 2198
+    },
+    "languages_below_min_n": [],
+    "label_vs_language_chi_square": {
+      "chi2": 626.7003047740211,
+      "p_value": 8.198943899023842e-137,
+      "dof": 2,
+      "n": 6662.0,
+      "cramers_v": 0.306709790099441,
+      "share_cells_expected_lt5": 0.0
+    },
+    "code_mixed_share_pct": 0.0,
+    "language_source_counts": {
+      "provided": 6662
+    },
+    "detector_agreement_on_provided_pct": 93.32032422695887,
+    "note": "Language detection is a rule-based hint, not ground truth."
+  },
+  "codemixed_O3": {
+    "status": "skipped: no Romanized / code-mixed rows"
+  },
+  "age_language_O4": {
+    "status": "unavailable: no reliable age information in this dataset"
+  },
+  "models_O5": {
+    "status": "ok",
+    "n_rows": 6662,
+    "cv": "5-fold author-grouped stratified CV x 3 seeds",
+    "best_model": "linear_svm",
+    "overall": [
+      {
+        "model": "linear_svm",
+        "n_splits": 5,
+        "seeds": 3,
+        "accuracy_mean": 0.819,
+        "accuracy_std": 0.0006,
+        "macro_f1_mean": 0.816,
+        "macro_f1_std": 0.0005,
+        "macro_precision_mean": 0.815,
+        "macro_precision_std": 0.0006,
+        "macro_recall_mean": 0.8174,
+        "macro_recall_std": 0.0003,
+        "mcc_mean": 0.6325,
+        "mcc_std": 0.0009
+      },
+      {
+        "model": "logreg",
+        "n_splits": 5,
+        "seeds": 3,
+        "accuracy_mean": 0.8054,
+        "accuracy_std": 0.0011,
+        "macro_f1_mean": 0.8035,
+        "macro_f1_std": 0.0011,
+        "macro_precision_mean": 0.8025,
+        "macro_precision_std": 0.0011,
+        "macro_recall_mean": 0.8078,
+        "macro_recall_std": 0.001,
+        "mcc_mean": 0.6103,
+        "mcc_std": 0.0021
+      },
+      {
+        "model": "complement_nb",
+        "n_splits": 5,
+        "seeds": 3,
+        "accuracy_mean": 0.6769,
+        "accuracy_std": 0.0004,
+        "macro_f1_mean": 0.6603,
+        "macro_f1_std": 0.0005,
+        "macro_precision_mean": 0.671,
+        "macro_precision_std": 0.0004,
+        "macro_recall_mean": 0.6588,
+        "macro_recall_std": 0.0004,
+        "mcc_mean": 0.3296,
+        "mcc_std": 0.0008
+      }
+    ],
+    "fairness_gaps": [
+      {
+        "model": "complement_nb",
+        "group_type": "language",
+        "groups_compared": 3,
+        "macro_f1_gap": 0.1005,
+        "worst_group": "en",
+        "recall_gap": 0.0453
+      },
+      {
+        "model": "linear_svm",
+        "group_type": "language",
+        "groups_compared": 3,
+        "macro_f1_gap": 0.2606,
+        "worst_group": "en",
+        "recall_gap": 0.2527
+      },
+      {
+        "model": "logreg",
+        "group_type": "language",
+        "groups_compared": 3,
+        "macro_f1_gap": 0.3465,
+        "worst_group": "en",
+        "recall_gap": 0.2908
+      }
+    ],
+    "min_group_n_for_model_metrics": 100,
+    "groups_insufficient_n": []
+  }
+}
